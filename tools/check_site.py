@@ -26,6 +26,6 @@ for file in SITE.rglob('*.css'):
     for ref in re.findall(r'url\([\'\"]?([^\)\'\"]+)',file.read_text()):
         if not urlsplit(ref).scheme and not (file.parent/unquote(ref)).exists():errors.append(f'{file.name}: missing {ref}')
 if len(pages)!=20:errors.append(f'Expected 20 pages, found {len(pages)}')
-if list(SITE.rglob('*.pdf')):errors.append('PDF must remain outside the website until Junshu approves it.')
+if list(SITE.rglob('*.pdf')):errors.append('PDF must remain outside the website until the project maintainer approves it.')
 result={'html_pages':len(pages),'chapters':len(list((SITE/'chapters').glob('*.html'))),'pdf_files':len(list(SITE.rglob('*.pdf'))),'errors':errors}
 print(json.dumps(result,ensure_ascii=False,indent=2));sys.exit(bool(errors))

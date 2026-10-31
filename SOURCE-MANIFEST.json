@@ -3,13 +3,17 @@
     "path": "software/pi-camera-1.0/MANIFEST.sha256",
     "source": "camera-project/C-软件/pi-camera-1.0/MANIFEST.sha256",
     "bytes": 2800,
-    "sha256": "5618f5722305692e15244ab0652f1f55e11db5acfe5b27cc2c9cb7022fe9e58f"
+    "sha256": "5500cbd6ad2a5790f0d66b14a084f2b2a61bb7b0c9723df948bcc4f518252408",
+    "source_sha256": "5618f5722305692e15244ab0652f1f55e11db5acfe5b27cc2c9cb7022fe9e58f",
+    "adaptation": "；公开副本去除个人署名；仅说明文字及对应归档/校验更新，程序和几何保持原样。"
   },
   {
     "path": "software/pi-camera-1.0/README.md",
     "source": "camera-project/C-软件/pi-camera-1.0/README.md",
-    "bytes": 2905,
-    "sha256": "211d4123c8e66a11aa6b5892b00a0ee0f485e6cdf0893ac64df71202cbb725dc"
+    "bytes": 2899,
+    "sha256": "1f3b85a0e0a52539de3694caa26d2d9e170a10d5c4de0de28a2959c00b41467e",
+    "source_sha256": "211d4123c8e66a11aa6b5892b00a0ee0f485e6cdf0893ac64df71202cbb725dc",
+    "adaptation": "；公开副本去除个人署名；仅说明文字及对应归档/校验更新，程序和几何保持原样。"
   },
   {
     "path": "software/pi-camera-1.0/TESTING.md",
@@ -573,13 +577,17 @@
     "path": "software/dist-1.0/junshu-camera-pi-1.0.0.tar.gz.sha256",
     "source": "camera-project/C-软件/dist-1.0/junshu-camera-pi-1.0.0.tar.gz.sha256",
     "bytes": 96,
-    "sha256": "55b0610c516ad21426380b746757ef2bd3e26456001d16544f11fa1d5df38643"
+    "sha256": "280f3d7d8746b07a95f25b251cd3ecdc8057b5c327bd5fed8a01b3194ff0bb16",
+    "source_sha256": "55b0610c516ad21426380b746757ef2bd3e26456001d16544f11fa1d5df38643",
+    "adaptation": "；公开副本去除个人署名；仅说明文字及对应归档/校验更新，程序和几何保持原样。"
   },
   {
     "path": "software/dist-1.0/junshu-camera-pi-1.0.0.tar.gz",
     "source": "camera-project/C-软件/dist-1.0/junshu-camera-pi-1.0.0.tar.gz",
-    "bytes": 177741,
-    "sha256": "4f8ccead3eae4f66a1b4ba8f7603a0977cbc91d1864403f62617c7c1feb934e3"
+    "bytes": 177739,
+    "sha256": "5f3d7776aaa1cde28fb641f93b39da22943877d664b216093b05991ab67b78ec",
+    "source_sha256": "4f8ccead3eae4f66a1b4ba8f7603a0977cbc91d1864403f62617c7c1feb934e3",
+    "adaptation": "；公开副本去除个人署名；仅说明文字及对应归档/校验更新，程序和几何保持原样。"
   },
   {
     "path": "software/dist-1.0/junshu-camera-boot-1.0.0.tar.gz.sha256",
@@ -932,8 +940,10 @@
   {
     "path": "models/core-20261028/原版安装说明.md",
     "source": "camera-project/deliveries/20261028-structure-complete/Junshu_Camera_Final_Structure_20261028 2/安装说明.md",
-    "bytes": 17456,
-    "sha256": "ce10b38bed1642736dc06994c825cd4bb385c00c61f53acae8317d3c5fb0111e"
+    "bytes": 17455,
+    "sha256": "e294c708c64ae5f9246259287df4fd5160808488b01b451263e289c4fae28c97",
+    "source_sha256": "ce10b38bed1642736dc06994c825cd4bb385c00c61f53acae8317d3c5fb0111e",
+    "adaptation": "；公开副本去除个人署名；仅说明文字及对应归档/校验更新，程序和几何保持原样。"
   },
   {
     "path": "models/core-20261028/source/Blender源文件核对.json",
@@ -1226,8 +1236,10 @@
   {
     "path": "models/hood-n3-v1/guides/N3-V1-打印与逐步安装.html",
     "source": "camera-project/F-验收/output/20261027-n3-printable-hood-v1/guides/N3-V1-打印与逐步安装.html",
-    "bytes": 926866,
-    "sha256": "6aa38db5aa7b0b53d694000704680832cadc3e517a22ce2f9b3055d74d71c71f"
+    "bytes": 926869,
+    "sha256": "d6c16e24a9f5a9fcc03d619214ee18c78c2e8fdb31575d0d08e588c80d2f4f87",
+    "source_sha256": "6aa38db5aa7b0b53d694000704680832cadc3e517a22ce2f9b3055d74d71c71f",
+    "adaptation": "；公开副本去除个人署名；仅说明文字及对应归档/校验更新，程序和几何保持原样。"
   },
   {
     "path": "models/hood-n3-v1/guides/零件与打印清单.csv",
@@ -1312,10 +1324,10 @@
   {
     "path": "project-reference/requirements/PRD.md",
     "source": "camera-project/A-PRD/PRD.md",
-    "bytes": 30392,
-    "sha256": "f3da761e52af2a963fd4f2688af2a6d55ba1405cc27741037e4b12d8e13f50ba",
+    "bytes": 30397,
+    "sha256": "9080f40231b6c402fe6315b40befd14f95d0e8bd9efa377f1a5dc93d5ffd4f35",
     "source_sha256": "6441a67c203f33778b3603dbbd4a54f2c22990303e7f27dfbfcbd704e42efde7",
-    "adaptation": "公开副本仅调整文档链接及将本机绝对路径替换为来源占位，几何和程序实现未改。"
+    "adaptation": "公开副本仅调整文档链接及将本机绝对路径替换为来源占位，几何和程序实现未改。；公开副本去除个人署名；仅说明文字及对应归档/校验更新，程序和几何保持原样。"
   },
   {
     "path": "project-reference/requirements/questions.md",
@@ -1326,8 +1338,10 @@
   {
     "path": "project-reference/requirements/decisions.md",
     "source": "camera-project/A-PRD/decisions.md",
-    "bytes": 17918,
-    "sha256": "21e9a2a404fe4556d1233c17fbaa91f509e625a00a1d79ac80a4d1363fcddeaf"
+    "bytes": 17921,
+    "sha256": "b1a569acc38d1a52c306b8d78923abd6f7ef905feac2b2b6a6f07f3f4fe0eec2",
+    "source_sha256": "21e9a2a404fe4556d1233c17fbaa91f509e625a00a1d79ac80a4d1363fcddeaf",
+    "adaptation": "；公开副本去除个人署名；仅说明文字及对应归档/校验更新，程序和几何保持原样。"
   },
   {
     "path": "models/lever-v30/images/V30-六件标记与测试顺序.png",

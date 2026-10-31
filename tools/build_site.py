@@ -17,17 +17,17 @@ def prose(v):
     return ''.join('<p>'+re.sub(r'`([^`]+)`',r'<code>\1</code>',e(p))+'</p>' for p in str(v).split('\n') if p.strip())
 
 def header(prefix='',home=False):
-    return f'''<a class="skip-link" href="#main">跳到正文</a><header class="site-header {'home-header' if home else ''}"><a class="brand" href="{prefix}index.html">自制相机 <span>／ Junshu</span></a><nav aria-label="主导航"><a href="{prefix}route.html">制作路线</a><a href="{prefix}about.html">版本与验证</a><a href="{prefix}setup.html">获取项目</a><a class="nav-action" href="{prefix}route.html">开始阅读 ↗</a></nav></header>'''
+    return f'''<a class="skip-link" href="#main">跳到正文</a><header class="site-header {'home-header' if home else ''}"><a class="brand" href="{prefix}index.html">自制相机</a><nav aria-label="主导航"><a href="{prefix}route.html">制作路线</a><a href="{prefix}about.html">版本与验证</a><a href="{prefix}setup.html">获取项目</a><a class="nav-action" href="{prefix}route.html">开始阅读 ↗</a></nav></header>'''
 
 def footer(prefix=''):
-    return f'''<footer><div class="footer-inner layout"><strong>自制相机 / Junshu</strong><span>中文制作教程 · 第 1 版 · 2026.10.31</span><a href="{prefix}setup.html">获取项目与 AI 提示词 ↗</a></div></footer>'''
+    return f'''<footer><div class="footer-inner layout"><strong>自制相机</strong><span>中文制作教程 · 第 1 版 · 2026.10.31</span><a href="{prefix}setup.html">获取项目与 AI 提示词 ↗</a></div></footer>'''
 
 def stylesheet(name,prefix=''):
     version=hashlib.sha256((SITE/'assets'/name).read_bytes()).hexdigest()[:12]
     return f'<link rel="stylesheet" href="{prefix}assets/{name}?v={version}">'
 
 def page(title,body,prefix='',home=False):
-    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Junshu 自制相机中文教程：从认识零件到安装、打印与最终检验，16章逐步学习。"><title>{e(title)} / Junshu 自制相机</title>{stylesheet('home.css') if home else ''}{stylesheet('guide.css',prefix)}{stylesheet('ai-setup.css',prefix)}<script src="{prefix}assets/guide.js" defer></script><script src="{prefix}assets/ai-setup.js" defer></script></head><body>{header(prefix,home)}{body}{footer(prefix)}</body></html>'''
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="自制相机中文教程：从认识零件到安装、打印与最终检验，16章逐步学习。"><title>{e(title)} / 自制相机</title>{stylesheet('home.css') if home else ''}{stylesheet('guide.css',prefix)}{stylesheet('ai-setup.css',prefix)}<script src="{prefix}assets/guide.js" defer></script><script src="{prefix}assets/ai-setup.js" defer></script></head><body>{header(prefix,home)}{body}{footer(prefix)}</body></html>'''
 
 def illustration(ch):
     """Editorial line diagrams show relationships, never connector orientation."""
@@ -121,7 +121,7 @@ def build():
     (SITE/'downloads/AI搭建环境提示词.txt').write_text(prompt+'\n')
     body='<main id="main">'+ai_setup(primary=True)+'</main>'
     (SITE/'setup.html').write_text(page('获取项目与 AI 提示词',body))
-    body='''<main id="main" class="layout"><div class="page-head"><div class="eyebrow">第 1 版 / 2026.10.30</div><h1>知道进展，<br>也知道下一步。</h1><p>这是一份依据 Junshu 相机制作记录整理的中文教程。它帮助你理解、复现和逐步验证，不把设计图或电脑上的检查当作整机验收。</p></div><div class="setup-layout"><section><h2>阅读前先分清三件事。</h2><ol class="setup-list"><li><strong>已实测：</strong>有对应设备操作或明确用户反馈，例如基础拍照、基础开关机与手机传图。仍要看具体条件和未覆盖的边界。</li><li><strong>本地检查：</strong>软件测试、网格检查、切片与包校验，可发现部分问题，不能替代真实安装和使用。</li><li><strong>待验证：</strong>未确认的版本安装、材料配合、长期稳定性和完整整机检查，需要照检查项补做。</li></ol><h2>首页的三台相机</h2><p>中间高方盒沿用 Junshu 的项目外形，旁边两台用于展示 DIY 外形可能性。产品图为材质与灯光演绎，概念机尚未做内部结构适配。</p></section><section><h2>当前关键边界</h2><ul class="setup-list"><li>软件版本以第 09 章核对记录为准。New Cam 1.0 已有修复后的实机配置成功报告；仍需下一次开机观察与完整回归。</li><li>没有电量采样硬件时，界面不显示推算的电量百分比。</li><li>结构文件的网格、切片通过，不等于打印后已经全部装配通过。</li><li>材料、镜头、屏幕或主板不同，尺寸、排线、软件与供电均需重新核对。</li><li>每个章节保留来源和完成检查。遇到不一致，先暂停该步骤并记录现象。</li></ul><div class="review-banner">本轮发布范围为相机制作教程及项目技术资料。频道视频制作资料不在此范围内。</div><a class="pill-button" href="chapters/15.html">打开最终检验章节 ↗</a></section></div></main>'''
+    body='''<main id="main" class="layout"><div class="page-head"><div class="eyebrow">第 1 版 / 2026.10.30</div><h1>知道进展，<br>也知道下一步。</h1><p>这是一份依据 自制相机制作记录整理的中文教程。它帮助你理解、复现和逐步验证，不把设计图或电脑上的检查当作整机验收。</p></div><div class="setup-layout"><section><h2>阅读前先分清三件事。</h2><ol class="setup-list"><li><strong>已实测：</strong>有对应设备操作或明确用户反馈，例如基础拍照、基础开关机与手机传图。仍要看具体条件和未覆盖的边界。</li><li><strong>本地检查：</strong>软件测试、网格检查、切片与包校验，可发现部分问题，不能替代真实安装和使用。</li><li><strong>待验证：</strong>未确认的版本安装、材料配合、长期稳定性和完整整机检查，需要照检查项补做。</li></ol><h2>首页的三台相机</h2><p>中间高方盒沿用本项目外形，旁边两台用于展示 DIY 外形可能性。产品图为材质与灯光演绎，概念机尚未做内部结构适配。</p></section><section><h2>当前关键边界</h2><ul class="setup-list"><li>软件版本以第 09 章核对记录为准。New Cam 1.0 已有修复后的实机配置成功报告；仍需下一次开机观察与完整回归。</li><li>没有电量采样硬件时，界面不显示推算的电量百分比。</li><li>结构文件的网格、切片通过，不等于打印后已经全部装配通过。</li><li>材料、镜头、屏幕或主板不同，尺寸、排线、软件与供电均需重新核对。</li><li>每个章节保留来源和完成检查。遇到不一致，先暂停该步骤并记录现象。</li></ul><div class="review-banner">本轮发布范围为相机制作教程及项目技术资料。频道视频制作资料不在此范围内。</div><a class="pill-button" href="chapters/15.html">打开最终检验章节 ↗</a></section></div></main>'''
     (SITE/'about.html').write_text(page('版本与验证',body))
     print(f'Built {len(chapters)+4} HTML pages; PDF is excluded from the website by user request.')
 

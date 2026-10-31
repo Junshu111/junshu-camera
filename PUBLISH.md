@@ -10,6 +10,6 @@
 
 预计网址为 `https://junshu111.github.io/junshu-camera/`。网址不需要单独购买域名。只有 GitHub 显示部署成功后，才把它当作已上线地址分享。
 
-更新时修改文件并提交到同一目录即可，网页地址保持不变。已下载的旧 PDF 不会自动更新；PDF 由 Junshu 确认后另行加入。
+更新时修改文件并提交到同一目录即可，网页地址保持不变。已下载的旧 PDF 不会自动更新；PDF 由制作者确认后另行加入。
 
 官方说明：https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
