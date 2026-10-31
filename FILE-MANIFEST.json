@@ -6,8 +6,8 @@
   },
   {
     "path": "CHANGELOG.md",
-    "bytes": 663,
-    "sha256": "118fb081944a231ae0a25caa77b37a91553a14779131b2ad55149b29e63de84e"
+    "bytes": 1029,
+    "sha256": "43352be1fb9a50f43c297aec572a919a74db875ae1764921bc36cc41792f83f3"
   },
   {
     "path": "GETTING-STARTED.md",
@@ -76,8 +76,8 @@
   },
   {
     "path": "docs/about.html",
-    "bytes": 3101,
-    "sha256": "64bc656427cedd7d07f3a461df530b8b17e83cd3688f2b22004858697027303d"
+    "bytes": 3131,
+    "sha256": "3221d0fa21e11b02d9e8195437f2fd4bfa07d494dda193c08e9e98846c8b9ce7"
   },
   {
     "path": "docs/assets/ai-setup.css",
@@ -1041,8 +1041,8 @@
   },
   {
     "path": "docs/assets/guide.css",
-    "bytes": 12570,
-    "sha256": "a9ff1c9426982b55352d479512c2c1f84348e5a82fb5d5ab73f048f378262b33"
+    "bytes": 12651,
+    "sha256": "1ade199042a3023661d3796584f3b8971236c0b78780efc04382d5a34ba67fdd"
   },
   {
     "path": "docs/assets/guide.js",
@@ -1051,88 +1051,88 @@
   },
   {
     "path": "docs/assets/home.css",
-    "bytes": 9253,
-    "sha256": "df7b0c6209f925fb03ed591ed0d16f976ab17129836731a78a2fd54bd2f6f787"
+    "bytes": 9273,
+    "sha256": "fa0d7bd4665f6c21184bb319da0334f357aced8df90b37f40d351565b998c842"
   },
   {
     "path": "docs/chapters/01.html",
-    "bytes": 10743,
-    "sha256": "f3bbadd868ff65d993409cc08646959ad797a8418fa6fee66fa1e1dab7c9a8a4"
+    "bytes": 10773,
+    "sha256": "ff320d80eaf4031a827b746ea26cc82380c042920424018e119bb353559f4fdf"
   },
   {
     "path": "docs/chapters/02.html",
-    "bytes": 10893,
-    "sha256": "8da72e5ee9376755860e1c05e44d2e8d3d497ed82bbf9e87bcb01176c818a090"
+    "bytes": 10923,
+    "sha256": "d189d6c506f0a52b0531d173fdda95607518b7da880ffbda222b63f085de1c39"
   },
   {
     "path": "docs/chapters/03.html",
-    "bytes": 10852,
-    "sha256": "c4477c0612680e1d61018692d53e8854eedf60a41b5c63044ef8e678b8990952"
+    "bytes": 10882,
+    "sha256": "0ea3ce3e26e1b8987367ffa410a291f70b82609abaeb3723edbb409e2fdd3e6a"
   },
   {
     "path": "docs/chapters/04.html",
-    "bytes": 14136,
-    "sha256": "b7c17ddcdc22c0be5213264864cb4efd0d8ca49be0eeb03b7adb24a0dac2e569"
+    "bytes": 14166,
+    "sha256": "3e60b5e0a8396df0fec24d232cdc465d07843802bb9a6629123f83ca6dc3c3b8"
   },
   {
     "path": "docs/chapters/05.html",
-    "bytes": 11115,
-    "sha256": "41d4ea7f885381be1b825a125793e5a9e311faa81a85ba7fe0978dbe8655d0af"
+    "bytes": 11145,
+    "sha256": "1797b943f340b1173757bae901432970c1ad68058f5eb5e7070c77f01531a1e2"
   },
   {
     "path": "docs/chapters/06.html",
-    "bytes": 11043,
-    "sha256": "b5a84cead4ed10c893e818176eb31f611a11f1a4a7a042a1397e0135fa6cdfc8"
+    "bytes": 11073,
+    "sha256": "d12461d37df1c11d6aaa6174f4936f9052d1eae5856f2a2f76c1a3b4871fc609"
   },
   {
     "path": "docs/chapters/07.html",
-    "bytes": 11107,
-    "sha256": "3340757105001ef99699ed075f0ff949a8610c8294f224b26f1cf55c3f2bc586"
+    "bytes": 11137,
+    "sha256": "9c8c2ba500ff7d35ae17a44f6c6a51e9e8dc88b33da4d0265040fbc0259198f5"
   },
   {
     "path": "docs/chapters/08.html",
-    "bytes": 10849,
-    "sha256": "72c6a8cac16a45f98d98205006baceabf298117c0cfc9d8a6e6d3962ed355726"
+    "bytes": 10879,
+    "sha256": "93bfa59f0c1bfe5d8b79cd30d3f01144db094612e9acb3762dfcaeaa23385bca"
   },
   {
     "path": "docs/chapters/09.html",
-    "bytes": 11419,
-    "sha256": "e78b0a1abab74beb925d17b8e677da70f4a5d85e2383b7a429caf54c9170b226"
+    "bytes": 11449,
+    "sha256": "6f896eb67bff36b311e1d54f5de406c55d09cf3366ee90100411386ee3678da6"
   },
   {
     "path": "docs/chapters/10.html",
-    "bytes": 14139,
-    "sha256": "80403d3ddfa5e8372d2523e17007f5d5442947cce07880b5578ea5d3fcbf792e"
+    "bytes": 14169,
+    "sha256": "46e7eaadb48dba4258be8334b66edfb658e9eda60409a9d7cc59e41f4a78237d"
   },
   {
     "path": "docs/chapters/11.html",
-    "bytes": 10688,
-    "sha256": "3317244aa057d37eb01fe3ccda607d94d19794ef0b3977d38b190d82b02bd729"
+    "bytes": 10718,
+    "sha256": "6aa63920d771cc2868434365931896791d2f2bc2d7f408eb4b517783720c4d27"
   },
   {
     "path": "docs/chapters/12.html",
-    "bytes": 11245,
-    "sha256": "09f388263bdbec9d5545f4675faa354fa03365fb4b4edf8c70d888fee5518fb8"
+    "bytes": 11275,
+    "sha256": "b0dbdcdb83349d7257bf1bb15fba6e046e2b4293630d19cc99554b5e4aad7b82"
   },
   {
     "path": "docs/chapters/13.html",
-    "bytes": 11621,
-    "sha256": "62426d5659fabf3c499b003a3094bf4fffe928446bf6ceceb9e5fdb104c1dd80"
+    "bytes": 11651,
+    "sha256": "9183d9e904549dc0082326487c82a55bd76f86f33c0e39804587b7f753bfc2a5"
   },
   {
     "path": "docs/chapters/14.html",
-    "bytes": 12226,
-    "sha256": "73bcc316539919239d40fa245b6c45d6244d588b674870e654d4cb6a45aec196"
+    "bytes": 12256,
+    "sha256": "559fe0fd12a5428958f7574502c772b12bf8216171f860b68dd94ff6601389a5"
   },
   {
     "path": "docs/chapters/15.html",
-    "bytes": 12538,
-    "sha256": "8345848f9932cca1663e50e7ee26e09bce53bf414790ea8c7e351687096378d8"
+    "bytes": 12568,
+    "sha256": "797df698ead8d61a58708d3a23993bb49e867b62d8993fd80bed9465a43936ff"
   },
   {
     "path": "docs/chapters/16.html",
-    "bytes": 11840,
-    "sha256": "0e7126d3760ceead695ac0adaa5a7fd09d2a1e226dc67c0ca1f55180d1367ab9"
+    "bytes": 11870,
+    "sha256": "b5e610c37a82bfd2c055565c93c5922518b4daa8822a28da510be8d1ff76fe4a"
   },
   {
     "path": "docs/downloads/AI搭建环境提示词.txt",
@@ -1151,23 +1151,23 @@
   },
   {
     "path": "docs/index.html",
-    "bytes": 9483,
-    "sha256": "83407f4181490ade96ecee55fcad449b47f4c961bac62700f1f9c2ad624e6337"
+    "bytes": 9528,
+    "sha256": "575ec72431aab990a8740fda6fd343be347746d97e66d28d896d25fadc52e64c"
   },
   {
     "path": "docs/route.html",
-    "bytes": 8918,
-    "sha256": "7fb63e617087f5adc7a884230dd5cee2a047bed2e293675b6cacc757dfcd4fea"
+    "bytes": 8948,
+    "sha256": "808552eb0cf3296e1866b2ca9bfb661a54b3724fb08dd827e3c7c066b8e92619"
   },
   {
     "path": "docs/setup.html",
-    "bytes": 5791,
-    "sha256": "ec581bf69b7a1224f1bccabc9f808e8ed49ded17d975e45572840e57889ab675"
+    "bytes": 5821,
+    "sha256": "2e477c0bc1a1c75f14a68425f7e3a6820a7f267644f5b8795529f9b78dae8c96"
   },
   {
     "path": "tools/build_site.py",
-    "bytes": 17068,
-    "sha256": "2701332c82f5bd075be035b62345ddb42ec5f83fb319f4845d0f2975a8cc8e02"
+    "bytes": 17196,
+    "sha256": "eb13fea86fcc2267b7f85ac09f548f1cb06da03b723468d4f4d102a7c3a245e3"
   },
   {
     "path": "tools/check_site.py",
