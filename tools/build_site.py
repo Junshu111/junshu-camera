@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Build a portable Chinese guide. No network, dependencies or device access."""
 from pathlib import Path
 import json, html, re, hashlib
@@ -29,8 +30,12 @@ def stylesheet(name,prefix=''):
     version=hashlib.sha256((SITE/'assets'/name).read_bytes()).hexdigest()[:12]
     return f'<link rel="stylesheet" href="{prefix}assets/{name}?v={version}">'
 
+def javascript(name,prefix=''):
+    version=hashlib.sha256((SITE/'assets'/name).read_bytes()).hexdigest()[:12]
+    return f'<script src="{prefix}assets/{name}?v={version}" defer></script>'
+
 def page(title,body,prefix='',home=False):
-    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="自制相机中文教程：从认识零件到安装、打印与最终检验，16章逐步学习。"><title>{e(title)} / 自制相机</title>{stylesheet('home.css') if home else ''}{stylesheet('guide.css',prefix)}{stylesheet('ai-setup.css',prefix)}<script src="{prefix}assets/guide.js" defer></script><script src="{prefix}assets/ai-setup.js" defer></script></head><body>{header(prefix,home)}{body}{footer(prefix)}</body></html>'''
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="自制相机中文教程：从认识零件到安装、打印与最终检验，16章逐步学习。"><title>{e(title)} / 自制相机</title>{stylesheet('home.css') if home else ''}{stylesheet('guide.css',prefix)}{stylesheet('ai-setup.css',prefix)}{javascript('guide.js',prefix)}{javascript('ai-setup.js',prefix)}</head><body>{header(prefix,home)}{body}{footer(prefix)}</body></html>'''
 
 def illustration(ch):
     """Editorial line diagrams show relationships, never connector orientation."""
