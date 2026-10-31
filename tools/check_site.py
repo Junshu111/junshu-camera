@@ -26,6 +26,9 @@ for file in SITE.rglob('*.css'):
     for ref in re.findall(r'url\([\'\"]?([^\)\'\"]+)',file.read_text()):
         if not urlsplit(ref).scheme and not (file.parent/unquote(ref)).exists():errors.append(f'{file.name}: missing {ref}')
 if len(pages)!=20:errors.append(f'Expected 20 pages, found {len(pages)}')
-if list(SITE.rglob('*.pdf')):errors.append('PDF must remain outside the website until the project maintainer approves it.')
+pdfs=list(SITE.rglob('*.pdf'))
+approved=SITE/'downloads/diy-camera-guide-zh.pdf'
+if pdfs!=[approved]:errors.append('Expected exactly the approved offline Chinese guide PDF.')
+elif not approved.read_bytes().startswith(b'%PDF-'):errors.append('Invalid PDF header.')
 result={'html_pages':len(pages),'chapters':len(list((SITE/'chapters').glob('*.html'))),'pdf_files':len(list(SITE.rglob('*.pdf'))),'errors':errors}
 print(json.dumps(result,ensure_ascii=False,indent=2));sys.exit(bool(errors))

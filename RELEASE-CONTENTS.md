@@ -4,6 +4,7 @@
 
 | 要找什么 | 从这里打开 |
 | --- | --- |
+| 离线中文制作手册 | [下载 PDF](docs/downloads/diy-camera-guide-zh.pdf)，含第二页两步 AI 入口 |
 | 新手开始／两步提示词 | [START-HERE](START-HERE.md)／[网站入口](https://junshu111.github.io/junshu-camera/setup.html) |
 | 新建或复用项目、七对话分工 | [AI-WORKFLOW](AI-WORKFLOW.md)／[启动交接](workflow/handoffs) |
 | 中文制作教程、采购和接线核对 | [完整路线](https://junshu111.github.io/junshu-camera/route.html)／[硬件入口](hardware/README.md) |
@@ -33,4 +34,4 @@ python3 -B tools/check_reference.py
 
 原设备的未验收项目仍如实说明。外观概念CAD未完成内部适配；没有把概念图、广告画面或网格检查冒充完整装机成功。3MF示例的材料／机器参数需要读者重新确认。
 
-历史失败草稿、缓存、运行凭据、原始设备日志、PDF及频道视频制作素材与工程不属于本公开发行。原本地项目均保留，本次只整理公开副本。
+历史失败草稿、缓存、运行凭据、原始设备日志及频道视频制作素材与工程不属于本公开发行。中文离线 PDF 已经用户确认公开。原本地项目均保留，本次只整理公开副本。

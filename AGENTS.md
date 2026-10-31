@@ -18,7 +18,7 @@
 
 正文来源是 content/hardware.json、software.json、structure.json；tables.json 为核对表。修改正文后运行 tools/build_site.py 更新 docs。不要把数字几何检查、本地软件测试写成实机通过。
 
-当前 PDF 由项目维护者单独审阅，未经后续确认，不放入此仓库或网页下载入口。频道视频制作资料始终不在本仓库范围内。
+2026-10-31 用户已明确授权公开对应 PDF。只发布 docs/downloads/diy-camera-guide-zh.pdf，并保持与当前教程、第二页两步 AI 入口一致。频道视频制作资料始终不在本仓库范围内。
 
 硬件、系统、材料与接线不同就重新核对。删除用户文件、重写存储卡、修改启动或实际连接设备前，先确认该具体动作确由用户要求。
 

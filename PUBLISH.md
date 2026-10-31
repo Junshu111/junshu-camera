@@ -1,6 +1,6 @@
 # 发布网页到 GitHub Pages
 
-这个文件包已经采用 GitHub Pages 支持的 `main` 分支 `/docs` 目录形式。PDF 不在包内。
+这个文件包已经采用 GitHub Pages 支持的 `main` 分支 `/docs` 目录形式。经用户确认的中文 PDF 位于 docs/downloads/diy-camera-guide-zh.pdf。
 
 1. 将本包内容放入 `https://github.com/Junshu111/junshu-camera` 仓库。保留现有 README 的必要信息；不要上传整个私人相机工作目录。
 2. 进入仓库的 Settings → Pages。
@@ -10,6 +10,6 @@
 
 预计网址为 `https://junshu111.github.io/junshu-camera/`。网址不需要单独购买域名。只有 GitHub 显示部署成功后，才把它当作已上线地址分享。
 
-更新时修改文件并提交到同一目录即可，网页地址保持不变。已下载的旧 PDF 不会自动更新；PDF 由制作者确认后另行加入。
+更新时修改文件并提交到同一目录即可，网页地址保持不变。已下载的旧 PDF 不会自动更新；当前已公开对应 PDF，更新时同步核对版本与下载链接。
 
 官方说明：https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
