@@ -1,0 +1,11 @@
+{
+  "title": "两次复制，让 AI 帮你开始。",
+  "repo_url": "https://github.com/Junshu111/junshu-camera",
+  "repo_placeholder": "GitHub 仓库网址 · 发布后填入",
+  "prompt": "我是新手，请根据上面的 GitHub 仓库，带我搭建 Junshu 自制相机项目的电脑端环境。\n先获取并阅读 README、AGENTS.md（如有）和 GETTING-STARTED.md，确认我的电脑系统与项目依赖，再在独立项目文件夹中按文档安装和自检。\n需要我操作时，一次只讲一步，用简单中文说明在哪里点、怎么做。如果无法读取仓库或操作我的电脑，请先告诉我需要怎样配合。\n本次只准备电脑端，不连接或写入树莓派。完成后告诉我：项目位置、自检结果和下一步。",
+  "status": "先让 AI 获取并阅读仓库，再按文档准备电脑端环境。",
+  "steps": [
+    "把 GitHub 链接发给 AI",
+    "再把提示词发给同一个 AI 对话框"
+  ]
+}
