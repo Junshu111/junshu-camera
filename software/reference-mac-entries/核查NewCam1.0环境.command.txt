@@ -1,0 +1,10 @@
+#!/bin/sh
+set -u
+newcam_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+/usr/bin/python3 -B "$newcam_dir/tools/camera_v1_remote.py" probe
+newcam_status=$?
+printf '\n'
+if [ "$newcam_status" -ne 0 ]; then printf '%s\n' '核查未全部通过；请保留终端报告。'; fi
+printf '%s' '按回车关闭：'
+read -r newcam_answer
+exit "$newcam_status"

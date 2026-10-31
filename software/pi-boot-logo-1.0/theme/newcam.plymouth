@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=New Cam
+Description=New Cam 1.0 static startup logo
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/newcam
+ScriptFile=/usr/share/plymouth/themes/newcam/newcam.script

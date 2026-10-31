@@ -1,0 +1,89 @@
+# Two STATIC screens. The refresh counter is approximate, not a boot delay.
+# Never call quit or hold the boot process. Existing OS/session owns handoff.
+Window.SetBackgroundTopColor(0, 0, 0);
+Window.SetBackgroundBottomColor(0, 0, 0);
+Plymouth.SetRefreshRate(20);
+global.first_image = Image("page-1.png");
+global.second_image = Image("page-2.png");
+global.picture = Sprite(global.first_image);
+global.text = Sprite();
+global.text.SetOpacity(0);
+global.frames = 0;
+global.page = 0;
+global.width = 0;
+global.height = 0;
+global.prompt = 0;
+global.boot = Plymouth.GetMode() == "boot";
+if (!global.boot) global.picture.SetOpacity(0);
+
+fun refresh()
+{
+    width = Window.GetWidth();
+    height = Window.GetHeight();
+    if (width <= 0 || height <= 0) return;
+    global.frames++;
+    next_page = 1;
+    if (global.frames > 30) next_page = 2;
+    if (next_page == global.page && width == global.width && height == global.height) return;
+    global.page = next_page;
+    global.width = width;
+    global.height = height;
+    image = global.first_image;
+    if (next_page == 2) image = global.second_image;
+    scale = width / 480;
+    if (height / 800 < scale) scale = height / 800;
+    global.picture.SetImage(image.Scale(480 * scale, 800 * scale));
+    global.picture.SetPosition(Window.GetX() + (width - 480 * scale) / 2,
+                               Window.GetY() + (height - 800 * scale) / 2, 0);
+}
+Plymouth.SetRefreshFunction(refresh);
+
+fun show_text(text)
+{
+    rendered = Image.Text(text, 1, 1, 1);
+    available = Window.GetWidth() - 32;
+    if (available > 0 && rendered.GetWidth() > available)
+        rendered = rendered.Scale(available, rendered.GetHeight() * available / rendered.GetWidth());
+    global.text.SetImage(rendered);
+    global.text.SetPosition(Window.GetX() + (Window.GetWidth() - rendered.GetWidth()) / 2,
+                            Window.GetY() + Window.GetHeight() * 0.65, 100);
+    global.text.SetOpacity(1);
+}
+
+fun normal()
+{
+    global.prompt = 0;
+    global.text.SetOpacity(0);
+    if (global.boot) global.picture.SetOpacity(1);
+}
+Plymouth.SetDisplayNormalFunction(normal);
+
+fun password(prompt, bullets)
+{
+    global.prompt = 1;
+    global.picture.SetOpacity(0);
+    stars = "";
+    for (i = 0; i < bullets; i++) stars += "*";
+    show_text(prompt + "  " + stars);
+}
+Plymouth.SetDisplayPasswordFunction(password);
+
+fun question(prompt, entry)
+{
+    global.prompt = 1;
+    global.picture.SetOpacity(0);
+    show_text(prompt + "  " + entry);
+}
+Plymouth.SetDisplayQuestionFunction(question);
+
+fun message(text)
+{
+    if (!global.prompt) show_text(text);
+}
+fun hide_message(text)
+{
+    if (!global.prompt) global.text.SetOpacity(0);
+}
+Plymouth.SetDisplayMessageFunction(message);
+Plymouth.SetHideMessageFunction(hide_message);
+refresh();

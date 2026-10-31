@@ -1,0 +1,14 @@
+#!/bin/sh
+set -u
+newcam_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+/usr/bin/python3 -B "$newcam_dir/tools/camera_v1_remote.py" verify
+newcam_status=$?
+printf '\n'
+if [ "$newcam_status" -eq 0 ]; then
+    printf '%s\n' 'New Cam 1.0 的安装文件、启动配置和恢复备份核查通过；实屏效果以开机观察为准。'
+else
+    printf '%s\n' '安装结果未通过核查；请保留终端完整输出。'
+fi
+printf '%s' '按回车关闭：'
+read -r newcam_answer
+exit "$newcam_status"

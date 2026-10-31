@@ -1,0 +1,9 @@
+{
+  "version": "0.4.0",
+  "state": "local_verified_device_acceptance_pending",
+  "authoritative_verification": "../qa/r4-integrated-20261026/verification.json",
+  "archive": "../dist-next/junshu-camera-pi-0.4.0.tar.gz",
+  "archive_sha256": "4024b43a905cfd437dc175e0ff66d252cae83469f63bb35ec02017ba6c543eb9",
+  "manifest_sha256": "e5ea46e38f1525d0dd430db421cef33a6f1712cff8f126e870dbe21aec8ce003",
+  "device_acceptance": "pending; not certified by local tests"
+}

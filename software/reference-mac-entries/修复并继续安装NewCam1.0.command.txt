@@ -1,0 +1,14 @@
+#!/bin/sh
+set -u
+newcam_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+/usr/bin/python3 -B "$newcam_dir/tools/camera_v1_remote.py" repair-install
+newcam_status=$?
+printf '\n'
+if [ "$newcam_status" -eq 0 ]; then
+    printf '%s\n' 'New Cam 1.0 安装配置已完成。请用按钮正常关机，再按按钮开机查看新版。'
+else
+    printf '%s\n' '尚未全部完成；请保留终端完整输出发给相机C。无需删除图标或旧版本。'
+fi
+printf '%s' '按回车关闭：'
+read -r newcam_answer
+exit "$newcam_status"

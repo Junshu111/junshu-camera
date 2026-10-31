@@ -1,0 +1,18 @@
+{
+  "body_width": 78.0,
+  "body_length": 125.0,
+  "body_height": 42.0,
+  "vertical_corner_radius": 7.5,
+  "rim_edge_radius": 3.5,
+  "screen_glass_width": 66.8,
+  "screen_glass_length": 113.8,
+  "screen_corner_radius": 5.1,
+  "lens_outer_diameter": 17.4,
+  "lens_center_height": 22.0,
+  "knob_diameter": 13.8,
+  "knob_pitch": 19.0,
+  "lever_side_y": -38.0,
+  "lever_center_height": 26.0,
+  "hatch_length": 49.0,
+  "hatch_height": 25.0
+}

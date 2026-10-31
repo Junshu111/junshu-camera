@@ -1,0 +1,259 @@
+{
+  "passed": true,
+  "print_object_count": 50,
+  "max_vertex_error_mm": 7.380714407645428e-06,
+  "external_libraries": 0,
+  "objects": [
+    {
+      "name": "01 Main body 106mm",
+      "max_vertex_error_mm": 3.7201881468718057e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "02 Screen retainer",
+      "max_vertex_error_mm": 3.703498833829144e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "03 Pi carrier 60deg braced",
+      "max_vertex_error_mm": 3.723621361473306e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "04 Bottom lid recessed USB-C",
+      "max_vertex_error_mm": 3.6987304667945864e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "05 Camera retainer",
+      "max_vertex_error_mm": 1.853704453935734e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "06 Camera cassette clearance",
+      "max_vertex_error_mm": 3.5524368300343667e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "07 Battery top bridge",
+      "max_vertex_error_mm": 3.6716461124797206e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "09 Independent battery cradle",
+      "max_vertex_error_mm": 2.6226043701171875e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "10 Anchor shoe 01",
+      "max_vertex_error_mm": 8.940696716308594e-07,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "10 Anchor shoe 02",
+      "max_vertex_error_mm": 1.8537044468303066e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "10 Anchor shoe 03",
+      "max_vertex_error_mm": 1.0192394270802652e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "10 Anchor shoe 04",
+      "max_vertex_error_mm": 3.6001205501179356e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "10 Anchor shoe 05",
+      "max_vertex_error_mm": 3.6954879760742188e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "10 Battery anchor shoe 6",
+      "max_vertex_error_mm": 3.242492681465592e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "10 Battery anchor shoe 7",
+      "max_vertex_error_mm": 3.6716461124797206e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "11 Anchor key 01",
+      "max_vertex_error_mm": 9.238719940185547e-07,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "11 Anchor key 02",
+      "max_vertex_error_mm": 1.6570091219136884e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "11 Battery anchor key 6",
+      "max_vertex_error_mm": 3.5762786865234375e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "11 Battery anchor key 7",
+      "max_vertex_error_mm": 3.5762786865234375e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "12 Camera sleeve 22",
+      "max_vertex_error_mm": 1.7225742325877036e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "12 Camera sleeve 56",
+      "max_vertex_error_mm": 1.7225742325877036e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "13 Camera key 22",
+      "max_vertex_error_mm": 1.7464160890767744e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "13 Camera key 56",
+      "max_vertex_error_mm": 1.7464160890767744e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "14 Pi clip 1",
+      "max_vertex_error_mm": 3.7240072998656615e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "14 Pi clip 2",
+      "max_vertex_error_mm": 3.7240072998656615e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "14 Pi clip 3",
+      "max_vertex_error_mm": 1.8541867632393405e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "14 Pi clip 4",
+      "max_vertex_error_mm": 3.6875724731544324e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "16 Cover clip 1",
+      "max_vertex_error_mm": 3.6716461124797206e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "16 Cover clip 2",
+      "max_vertex_error_mm": 3.6716461124797206e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "16 Cover clip 3",
+      "max_vertex_error_mm": 3.6716461124797206e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "16 Cover clip 4",
+      "max_vertex_error_mm": 3.6716461124797206e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "17 Release pick",
+      "max_vertex_error_mm": 6.318092346191406e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "25 Independent hidden cassette 02deg",
+      "max_vertex_error_mm": 3.7217049566606875e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "26 Internal rotor gap 7.4",
+      "max_vertex_error_mm": 3.695581028750894e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "27 Rearward handle B",
+      "max_vertex_error_mm": 7.380714407645428e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "27 Rearward handle C",
+      "max_vertex_error_mm": 7.336921697742582e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "28 Hidden pivot keeper",
+      "max_vertex_error_mm": 3.6954879760742188e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "29 Concealed bearing liner",
+      "max_vertex_error_mm": 3.6484146050952404e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "30 Sliding dust cover",
+      "max_vertex_error_mm": 3.504753109950798e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "31 USB-C carrier",
+      "max_vertex_error_mm": 3.516674041748047e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "32 Rear connector stop",
+      "max_vertex_error_mm": 3.647804263096077e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "33 Carrier key left",
+      "max_vertex_error_mm": 3.3974647521972656e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "33 Carrier key right",
+      "max_vertex_error_mm": 3.361701971016373e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "34 Axial shim 0.68",
+      "max_vertex_error_mm": 3.6597251948933263e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "34 Rigid cassette withdrawal key",
+      "max_vertex_error_mm": 3.0040741023640294e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "35 Independent button washer seat",
+      "max_vertex_error_mm": 3.7201881468718057e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "35 Side shim 0.36",
+      "max_vertex_error_mm": 2.7060508784870763e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "36 Long carrier lock 03",
+      "max_vertex_error_mm": 3.707408907871468e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "36 Long carrier lock 04",
+      "max_vertex_error_mm": 3.707408907871468e-06,
+      "same_triangle_indices": true
+    },
+    {
+      "name": "36 Long carrier lock 05",
+      "max_vertex_error_mm": 3.5762786865234375e-06,
+      "same_triangle_indices": true
+    }
+  ],
+  "calibration_choice": "pending, not installed"
+}

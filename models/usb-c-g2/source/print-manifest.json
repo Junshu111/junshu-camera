@@ -1,0 +1,90 @@
+{
+  "name": "01_X2D_PETG_Matte_USB_C_G2_Corrected_2Plates.3mf",
+  "stages": [
+    {
+      "number": 1,
+      "name": "01_G2_CORRECTED_USB_C_KIT",
+      "title": "方向修正版：30滑盖、31胶粘托架、32加宽U形后挡",
+      "files": [
+        "30_G2_matched_sliding_cover.stl",
+        "31_G2_glue_carrier.stl",
+        "32_G2_wide_U_rear_stop.stl"
+      ]
+    },
+    {
+      "number": 2,
+      "name": "02_OPTIONAL_UNCHANGED_04_LID",
+      "title": "备用原底板：保持不变，已有底板请跳过",
+      "files": [
+        "04_bottom_lid_recessed_usb-c.stl"
+      ]
+    }
+  ],
+  "layout": {
+    "30_G2_matched_sliding_cover.stl": {
+      "plate": 1,
+      "local_xy": [
+        18,
+        18
+      ],
+      "world_xy": [
+        18,
+        18
+      ],
+      "size_mm": [
+        20.850000381469727,
+        12.399999618530273,
+        2.5999999046325684
+      ]
+    },
+    "31_G2_glue_carrier.stl": {
+      "plate": 1,
+      "local_xy": [
+        60,
+        18
+      ],
+      "world_xy": [
+        60,
+        18
+      ],
+      "size_mm": [
+        36.0,
+        38.0,
+        17.399999618530273
+      ]
+    },
+    "32_G2_wide_U_rear_stop.stl": {
+      "plate": 1,
+      "local_xy": [
+        108,
+        18
+      ],
+      "world_xy": [
+        108,
+        18
+      ],
+      "size_mm": [
+        18.600000381469727,
+        11.5,
+        2.0
+      ]
+    },
+    "04_bottom_lid_recessed_usb-c.stl": {
+      "plate": 2,
+      "local_xy": [
+        32,
+        32
+      ],
+      "world_xy": [
+        339.2,
+        32
+      ],
+      "size_mm": [
+        125.0,
+        78.0,
+        9.300000190734863
+      ]
+    }
+  },
+  "unsliced": "author-project/camera-project/F-验收/output/20261028-usbc-glue-g2-direction-fix/source/G2-unsliced.3mf"
+}

@@ -6,23 +6,38 @@
   },
   {
     "path": "AGENTS.md",
-    "bytes": 2031,
-    "sha256": "962d7bd32eb63b8b37e365ee9a77d8ec2f312c17e64a32208c7d56c6d823ae22"
+    "bytes": 2521,
+    "sha256": "db9aa728363662e908a11a0375f8d765bcdcc8a0712d57edb8390e19b51b02df"
   },
   {
     "path": "AI-WORKFLOW.md",
-    "bytes": 11238,
-    "sha256": "a3e964be60b220070fbdc1da4e4f6b43f08f7817f34a5704ad2bd1f219496d66"
+    "bytes": 11532,
+    "sha256": "9237dfa7c964b047348f7bf62bb2141eed6c820f7a83f574e1d3861b7e94c034"
   },
   {
     "path": "CHANGELOG.md",
-    "bytes": 1453,
-    "sha256": "c82a34d4542499e54867f1754aebd4e7d4a20f7171040f7f6f1c61796f0b1e48"
+    "bytes": 1936,
+    "sha256": "2b9ef3554ecf81fb77422f312afbee7f7ce0e16bdf1321abd383feb452dfb727"
   },
   {
     "path": "GETTING-STARTED.md",
-    "bytes": 2884,
-    "sha256": "ed80d47d9884a3e41dfa7375071b24c4e754c2be2b4d9b386c0dfe39c531dd8b"
+    "bytes": 3154,
+    "sha256": "1b672b4d70154b20df6c58e981f7317eab5a69f38da89fa8122579a452a73bb2"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1063,
+    "sha256": "ede6ccb3d1cd657c4e7f555b637373e130f906901128527506e867ce86d8553c"
+  },
+  {
+    "path": "LICENSES/CC-BY-4.0.txt",
+    "bytes": 18657,
+    "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+  },
+  {
+    "path": "LICENSES/README.md",
+    "bytes": 1248,
+    "sha256": "c905839ca7dedeae4ed57b2a77297969c6f21507108055353968d657c2fc0632"
   },
   {
     "path": "PUBLISH.md",
@@ -31,23 +46,33 @@
   },
   {
     "path": "README.md",
-    "bytes": 2974,
-    "sha256": "dd80ab792c4a959c5f5bd74522425722566d8f3a5be43bdcc278628b0184e55b"
+    "bytes": 3461,
+    "sha256": "3ed0bed9b90c49caac701fc619e88930ddd74f00541499bd57efbea7abf53aa0"
+  },
+  {
+    "path": "RELEASE-CONTENTS.md",
+    "bytes": 2694,
+    "sha256": "25c184483ebc36eb1cec95f662485e9de016fe4aa2be121036e53761cba93bd3"
+  },
+  {
+    "path": "SOURCE-MANIFEST.json",
+    "bytes": 65045,
+    "sha256": "717deed5e2c2f5c572fc34e5e778736e768c5fb116dfb909728af65e5f21051a"
   },
   {
     "path": "START-HERE.md",
-    "bytes": 3588,
-    "sha256": "86b6024c9088a6dec48d6c5b57b527f14630296d7eb41e76f5c9c72a24c06dbd"
+    "bytes": 3683,
+    "sha256": "dc410208825fcf792bb3826fb3ee97f804613376a81f456a6466707582928cc5"
   },
   {
     "path": "content/ai-setup.html",
-    "bytes": 4301,
-    "sha256": "4db03504f22d0c676dece774c40b20e80adc43212256feeddbddc105f8df0555"
+    "bytes": 4451,
+    "sha256": "c40490aa20627d0b61ce3b4c8271121f7ca3862124252181001499b183e16eb0"
   },
   {
     "path": "content/chapters.json",
-    "bytes": 106842,
-    "sha256": "351ef0a0f3a0813dd8e0dd05631dc06ebb238788f17cb90240b025c999a2b43a"
+    "bytes": 106973,
+    "sha256": "88ddea75a4c6a0071731523d85db514673708b4663ffde5b5e31c72fca3e1613"
   },
   {
     "path": "content/hardware.json",
@@ -71,8 +96,8 @@
   },
   {
     "path": "content/software.json",
-    "bytes": 31890,
-    "sha256": "8aa4c43a1b3de760d98df48c74fc1fa0a75f680b9757836b4c7ee2997cf8b71d"
+    "bytes": 32021,
+    "sha256": "c9c1c28dd921f8ed261b55b7a4262ddf7097cf6ada25fa2dc3967251f76984e9"
   },
   {
     "path": "content/structure.json",
@@ -1101,18 +1126,18 @@
   },
   {
     "path": "docs/chapters/07.html",
-    "bytes": 11137,
-    "sha256": "12aea8e8d94ed0de9d039235e596058fd93d528db4f7fa6778b277448b2f0d88"
+    "bytes": 11167,
+    "sha256": "7a8297a10749c1bb241ed82608aa676c8cce87cc14e050d2ceaf516b283e3332"
   },
   {
     "path": "docs/chapters/08.html",
-    "bytes": 10879,
-    "sha256": "eb3fab98b7dc1d1c8ece96eb5dbefcc743661f75cb4d306dd48575dc49767811"
+    "bytes": 10972,
+    "sha256": "815e12256dd201c8029e7ad5069c56458d20f43a0d126fefcacdc619d71a2d78"
   },
   {
     "path": "docs/chapters/09.html",
-    "bytes": 11449,
-    "sha256": "96e43f43bcf2e66de4346b0e2e8dad8277bf2a9e5b0123660c4c2f3b8ae86ae2"
+    "bytes": 11454,
+    "sha256": "df43bf735b4a4d12fe66f87e4cd08be82c33841eda30953369ec64eae2e75003"
   },
   {
     "path": "docs/chapters/10.html",
@@ -1121,8 +1146,8 @@
   },
   {
     "path": "docs/chapters/11.html",
-    "bytes": 10718,
-    "sha256": "ff2f5eaf190d1fe06789160d8ca943188339e66743e45650d95930c5ec9b8c63"
+    "bytes": 10721,
+    "sha256": "3fa8e16d392425b88e7689fb0b77651f0be69b4f26e12bd0405b0ca63959e92a"
   },
   {
     "path": "docs/chapters/12.html",
@@ -1166,18 +1191,1168 @@
   },
   {
     "path": "docs/index.html",
-    "bytes": 10525,
-    "sha256": "ebb0d7befb68bc798f380b8730b0a5a998246f6b1cbb27788563c07156564d00"
+    "bytes": 10743,
+    "sha256": "795cbf66d3e251bff7eb1e28ce56193c8dd71c48365eb12684c22904e6e65472"
   },
   {
     "path": "docs/route.html",
-    "bytes": 8948,
-    "sha256": "4ce3e172e321b10d74d9507361bc6176fdc3201eed1a97c2a784722c8afd1a08"
+    "bytes": 8970,
+    "sha256": "ff70a3a2845a9425a7b8c7202c1c1caa0085ab7401a49fc16a918f02673a09ef"
   },
   {
     "path": "docs/setup.html",
-    "bytes": 6818,
-    "sha256": "d87a0db776f56a9da2b276c0d34272d8ceac6d7114efdc3c541e60a026b34b8d"
+    "bytes": 7036,
+    "sha256": "da7c2ce16ec59be814a764e40dc275e5c6b2de8080609b32c7d7a680dc199059"
+  },
+  {
+    "path": "hardware/README.md",
+    "bytes": 1427,
+    "sha256": "95be77a752519f22cf1d9b606d27cea3cb49ad8e46cc0879d616310ee6219a17"
+  },
+  {
+    "path": "models/README.md",
+    "bytes": 3097,
+    "sha256": "31380940137c7e188d8743e7cbf476c6a54e77a0ef99006174a073c8237e357f"
+  },
+  {
+    "path": "models/battery-v31/01_X2D_PETG_Matte_V31_Battery_48x40x20.3mf",
+    "bytes": 423203,
+    "sha256": "28625810e2916e6f352cc70fe8a0cd24fd34189fd3204be60b1c8a1ab6f71aaa"
+  },
+  {
+    "path": "models/battery-v31/images/installation/V31-安装图-01-位置与认件.png",
+    "bytes": 1294348,
+    "sha256": "1d35a975597e9dc2367d1137b13275eece33242fa004dcc88c14e10581704efc"
+  },
+  {
+    "path": "models/battery-v31/images/installation/V31-安装图-02-机外组装.png",
+    "bytes": 916597,
+    "sha256": "188f6e8c8da8ccc7d12304074f80a04cdc62befebbe61307c4b15e7b98ed53c5"
+  },
+  {
+    "path": "models/battery-v31/images/installation/V31-安装图-03-整组入壳.png",
+    "bytes": 1184103,
+    "sha256": "5997f81a7f3b58fa7eebdd9c516bd8107c1f25320b68bd5f9c5ae96802e4dfe7"
+  },
+  {
+    "path": "models/battery-v31/images/installation/V31-安装图-04-固定与复原.png",
+    "bytes": 844142,
+    "sha256": "c2c5bff8af5c2d5bda8e1ffe4d283e417f269f48473865975781b0ab63deaa6a"
+  },
+  {
+    "path": "models/battery-v31/source/meshes-delivery.json",
+    "bytes": 70296,
+    "sha256": "eaa3140baa7d801328e5ed3c61fcdf6bd62eab807daf4a65a659b3fdf1d69844"
+  },
+  {
+    "path": "models/battery-v31/stl/07_battery_glue_lid_v31.stl",
+    "bytes": 5084,
+    "sha256": "19e8b7c83ccad007e56861acd5b37ea40cf414a0fa4c0cbdd785202a3b1cc569"
+  },
+  {
+    "path": "models/battery-v31/stl/09_battery_wrap_v31.stl",
+    "bytes": 111984,
+    "sha256": "abb1d22a2f75d59f25182baabcac2308ac063d57949c08d4a8f3a8868b9fccea"
+  },
+  {
+    "path": "models/battery-v31/安装说明.md",
+    "bytes": 2409,
+    "sha256": "7cfe6df2a26101b77e3053ac2e196915727366b0cf12300b61f02f42b3bd4176"
+  },
+  {
+    "path": "models/bottom-clips/01_X2D_PETG_Matte_Bottom_Lid_4_Clips_Current_20261028.3mf",
+    "bytes": 91993,
+    "sha256": "e973f45626aee88974c34c2185a7c03ac21e8867105e0d8ac9ae62d81c4e28c5"
+  },
+  {
+    "path": "models/bottom-clips/stl/16_cover_clip_1.stl",
+    "bytes": 4284,
+    "sha256": "59b3aedfcc0a5dc1a62e9708c8d68893c41e0e5cd50c33d7900a01bdc5b8efe8"
+  },
+  {
+    "path": "models/bottom-clips/stl/16_cover_clip_2.stl",
+    "bytes": 4284,
+    "sha256": "59b3aedfcc0a5dc1a62e9708c8d68893c41e0e5cd50c33d7900a01bdc5b8efe8"
+  },
+  {
+    "path": "models/bottom-clips/stl/16_cover_clip_3.stl",
+    "bytes": 4284,
+    "sha256": "5a40ec4083becca7032c9421ba8bb2aa9ca67ddc7de2edfd8daa702113c2d32f"
+  },
+  {
+    "path": "models/bottom-clips/stl/16_cover_clip_4.stl",
+    "bytes": 4284,
+    "sha256": "5a40ec4083becca7032c9421ba8bb2aa9ca67ddc7de2edfd8daa702113c2d32f"
+  },
+  {
+    "path": "models/core-20261028/01_X2D_PETG_Matte_Current_Complete_20261028.3mf",
+    "bytes": 6874261,
+    "sha256": "02e6d5b92d6b52653860b1f7ad687600e72b8ed14870fb9d7f1a031099ecf3d6"
+  },
+  {
+    "path": "models/core-20261028/STL/01_main_body_106mm.stl",
+    "bytes": 176684,
+    "sha256": "dd206f0dee57ecf12e807bfd8f06ca3b4926dcffe66f59e01535347269ecf73b"
+  },
+  {
+    "path": "models/core-20261028/STL/02_screen_retainer.stl",
+    "bytes": 27984,
+    "sha256": "3b3bf535758fffe18f1a69804cbb25b4c49bace20fccb625f88274d59889c038"
+  },
+  {
+    "path": "models/core-20261028/STL/03_pi_carrier_access_reinforced_v28.stl",
+    "bytes": 334584,
+    "sha256": "6dafef22df21a0be4a9287cf551086bd407e8c37d70379535f92ab91b4f28475"
+  },
+  {
+    "path": "models/core-20261028/STL/04_bottom_lid_recessed_usb-c.stl",
+    "bytes": 82484,
+    "sha256": "479c514ab56c321bb796052687e8bcd986d60b289eb1036d0f8d50582fd97050"
+  },
+  {
+    "path": "models/core-20261028/STL/05_camera_rear_clamp_forward_v29.stl",
+    "bytes": 139184,
+    "sha256": "28e2700b81bb6844f00832b994c9772f94c9273892822c0ecac5dff8b2ab3563"
+  },
+  {
+    "path": "models/core-20261028/STL/06_camera_front_frame_forward_v29.stl",
+    "bytes": 149984,
+    "sha256": "33af73a4c886e0369e746e5966420d15c080dafdd3dfdb721309080ffe143263"
+  },
+  {
+    "path": "models/core-20261028/STL/07_battery_bridge_side_entry_v28.stl",
+    "bytes": 19084,
+    "sha256": "0dd04cfaca9555c33ba74edb7f2bf5525ce8effe9e847a3f923f41133d7a4d77"
+  },
+  {
+    "path": "models/core-20261028/STL/09_battery_cradle_open_end_v28.stl",
+    "bytes": 9184,
+    "sha256": "37db6141d91ffddf6ca1de77bf1c051b2b01c347be0380cd7c1749f29e4332e0"
+  },
+  {
+    "path": "models/core-20261028/STL/10_anchor_shoe_02.stl",
+    "bytes": 6984,
+    "sha256": "d71b4c23c7092e22fd67dbb349a98c2fc8b9f5303c804ebbe0b24343bf2182f5"
+  },
+  {
+    "path": "models/core-20261028/STL/10_anchor_shoe_03.stl",
+    "bytes": 6984,
+    "sha256": "880c3fd1e6fb05bd0d93d70d53c963fba12fc96f0ce9f99110b31cb956d1a559"
+  },
+  {
+    "path": "models/core-20261028/STL/10_anchor_shoe_04.stl",
+    "bytes": 6984,
+    "sha256": "b8ae6161b96143516c6e6536930f1aada43ff60a969fa55bee5c1233db80ec8a"
+  },
+  {
+    "path": "models/core-20261028/STL/10_anchor_shoe_05.stl",
+    "bytes": 6984,
+    "sha256": "b86fa43fe172b07edac41dbe1816229c1251049c872e6b9caf2d7acd767b9b54"
+  },
+  {
+    "path": "models/core-20261028/STL/10_battery_anchor_shoe_6.stl",
+    "bytes": 6984,
+    "sha256": "d71b4c23c7092e22fd67dbb349a98c2fc8b9f5303c804ebbe0b24343bf2182f5"
+  },
+  {
+    "path": "models/core-20261028/STL/10_battery_anchor_shoe_7.stl",
+    "bytes": 6984,
+    "sha256": "7600d297c0c4f442b29a5613b91688566556bac65c509fbe86d14e928f14b98b"
+  },
+  {
+    "path": "models/core-20261028/STL/10_camera_anchor_01_access_v29.stl",
+    "bytes": 9184,
+    "sha256": "5d2ba4d3aa4006b9895ca5a60ab04e4ad9f36bf8e263c82a0659e5ac8ce7cc41"
+  },
+  {
+    "path": "models/core-20261028/STL/11_anchor_key_02.stl",
+    "bytes": 3884,
+    "sha256": "503297c7134270cd2810f8cf65447102662f3db87ce669845fb58dd882d0156d"
+  },
+  {
+    "path": "models/core-20261028/STL/11_battery_anchor_key_6.stl",
+    "bytes": 3884,
+    "sha256": "d222973909e7c3fa8dd16ffda81a0e15ca35b2dba64f3b4ec0c28b6c44825cda"
+  },
+  {
+    "path": "models/core-20261028/STL/11_battery_anchor_key_7.stl",
+    "bytes": 3884,
+    "sha256": "03acbe5daff896f97aee04fc609b0d342f13d5b06186f3393d1acdb0f44057b5"
+  },
+  {
+    "path": "models/core-20261028/STL/11_camera_anchor_01_corner_key_v29.stl",
+    "bytes": 7384,
+    "sha256": "f8c52bbe6e7f6df426cacdd758dc9fc61b80641033abb6d907b14d21318a071f"
+  },
+  {
+    "path": "models/core-20261028/STL/12_camera_sleeve_22.stl",
+    "bytes": 3684,
+    "sha256": "81f8ef0c35c5936487088dbce2e6090a802f0fb3f42e77c8fd274bac6ee8f7fa"
+  },
+  {
+    "path": "models/core-20261028/STL/12_camera_sleeve_56.stl",
+    "bytes": 3684,
+    "sha256": "1d6e590f6ca87df48be440993504ec42cf12911a19def1914b7586165e9ba6de"
+  },
+  {
+    "path": "models/core-20261028/STL/13_camera_key_22.stl",
+    "bytes": 3484,
+    "sha256": "7b693f5075f6f376bdb8cb0e7b74376dc1a93cb616cd5b8beb22cf658e1ee4fb"
+  },
+  {
+    "path": "models/core-20261028/STL/13_camera_key_56.stl",
+    "bytes": 3484,
+    "sha256": "9097841d34b696c316b0f7bed0e22aea819af43af9f8df9feeb5df02d8f0366d"
+  },
+  {
+    "path": "models/core-20261028/STL/14_pi_clip_1.stl",
+    "bytes": 24884,
+    "sha256": "e5ef38c36ba208fd1d809f5022e006c38edbc1aeed86f0061cbcaaf2c79082b6"
+  },
+  {
+    "path": "models/core-20261028/STL/14_pi_clip_2.stl",
+    "bytes": 24884,
+    "sha256": "aa1dfaf847fe9b65095b4f00e116a41d5ab70a4c6071412b5a22fed3da3fccc9"
+  },
+  {
+    "path": "models/core-20261028/STL/14_pi_clip_3.stl",
+    "bytes": 24684,
+    "sha256": "e3b63c7c6033383a5183417d8d1caa2b4e93a389a65dbdfff4c122d620fb1987"
+  },
+  {
+    "path": "models/core-20261028/STL/14_pi_clip_4.stl",
+    "bytes": 24684,
+    "sha256": "b4abb8fe98fe38b55c45bb82381a2e8f0fe66b900d4deff7ed4cba037b54e5fe"
+  },
+  {
+    "path": "models/core-20261028/STL/16_cover_clip_1.stl",
+    "bytes": 4284,
+    "sha256": "59b3aedfcc0a5dc1a62e9708c8d68893c41e0e5cd50c33d7900a01bdc5b8efe8"
+  },
+  {
+    "path": "models/core-20261028/STL/16_cover_clip_2.stl",
+    "bytes": 4284,
+    "sha256": "59b3aedfcc0a5dc1a62e9708c8d68893c41e0e5cd50c33d7900a01bdc5b8efe8"
+  },
+  {
+    "path": "models/core-20261028/STL/16_cover_clip_3.stl",
+    "bytes": 4284,
+    "sha256": "5a40ec4083becca7032c9421ba8bb2aa9ca67ddc7de2edfd8daa702113c2d32f"
+  },
+  {
+    "path": "models/core-20261028/STL/16_cover_clip_4.stl",
+    "bytes": 4284,
+    "sha256": "5a40ec4083becca7032c9421ba8bb2aa9ca67ddc7de2edfd8daa702113c2d32f"
+  },
+  {
+    "path": "models/core-20261028/STL/17_release_pick.stl",
+    "bytes": 1484,
+    "sha256": "005d84bcb82602582d48b0afff5ff9073861fa8be6e60dd7dcb349939178a847"
+  },
+  {
+    "path": "models/core-20261028/STL/27_rearward_handle_b.stl",
+    "bytes": 74084,
+    "sha256": "ee944e0e3e3bb21d3cb63d7cbb831a40233f538a1629b6f702be1a0a1da492f2"
+  },
+  {
+    "path": "models/core-20261028/STL/27_rearward_handle_c.stl",
+    "bytes": 75284,
+    "sha256": "6acc5a8b86eb2cd5a88d23af8111fec49f188c992f030e53fdc996de1949d749"
+  },
+  {
+    "path": "models/core-20261028/STL/28_hidden_pivot_keeper.stl",
+    "bytes": 29284,
+    "sha256": "84aaa6affae607134a9cf9b00381ba4ad62bce2d76a5045559a116c288eda12d"
+  },
+  {
+    "path": "models/core-20261028/STL/29_concealed_bearing_liner.stl",
+    "bytes": 38884,
+    "sha256": "f0a8813e9b8b8fed9239d28283522558c39275bebc2006d40422af36283fec94"
+  },
+  {
+    "path": "models/core-20261028/STL/30_sliding_dust_cover.stl",
+    "bytes": 4284,
+    "sha256": "c9711a8304ae621a1550aa5cd9b52c2adaea357f1c44d767c88f67268409851e"
+  },
+  {
+    "path": "models/core-20261028/STL/31_usb-c_carrier.stl",
+    "bytes": 10884,
+    "sha256": "f10354ed3449e49c58c4ee0fddf4b6e1fe311e14b1bdbdb1b32fe6e7205052b3"
+  },
+  {
+    "path": "models/core-20261028/STL/32_rear_connector_stop.stl",
+    "bytes": 3984,
+    "sha256": "5616cf65005f59648842445429feb150cfd347264b01d12d5e1407e02df7958a"
+  },
+  {
+    "path": "models/core-20261028/STL/33_carrier_key_left.stl",
+    "bytes": 5084,
+    "sha256": "0f4f5f24dcd08c9d6616b9098a9dce1c2b898e8a3980e203cc33a1976b8176f7"
+  },
+  {
+    "path": "models/core-20261028/STL/33_carrier_key_right.stl",
+    "bytes": 5084,
+    "sha256": "230ec086518280c3fe6d56b76b30866bba7c378b6292d155f24a8f999e9b98db"
+  },
+  {
+    "path": "models/core-20261028/STL/34_axial_shim_0p68.stl",
+    "bytes": 1484,
+    "sha256": "3efb9d24cdf9b55fc8faccae4aba152c78fabc15fc81b693b702d6537ce2b712"
+  },
+  {
+    "path": "models/core-20261028/STL/34_rigid_cassette_withdrawal_key.stl",
+    "bytes": 1484,
+    "sha256": "c8659345862e1fa57ad7b316b7cc60c494bd51964d4f14256c5cc4831d22d9ba"
+  },
+  {
+    "path": "models/core-20261028/STL/35_independent_button_washer_seat.stl",
+    "bytes": 38484,
+    "sha256": "2285e01011ac21f2b8db2384f6a56969a281454a5e050b922ab17c9c1e53eb88"
+  },
+  {
+    "path": "models/core-20261028/STL/35_side_shim_0p36.stl",
+    "bytes": 684,
+    "sha256": "7caa3ba5bc98e312676fe8867696a7ced5b77b48bf8f9ff3060ca59a0dc32bb4"
+  },
+  {
+    "path": "models/core-20261028/STL/36_long_lock_03_v28.stl",
+    "bytes": 5984,
+    "sha256": "5dc218a7508bd313ab5ff95db5aa4d60e156979c969c5744cb46709587799ec3"
+  },
+  {
+    "path": "models/core-20261028/STL/36_long_lock_04_v28.stl",
+    "bytes": 5984,
+    "sha256": "5dc218a7508bd313ab5ff95db5aa4d60e156979c969c5744cb46709587799ec3"
+  },
+  {
+    "path": "models/core-20261028/STL/36_long_lock_05_v28.stl",
+    "bytes": 11884,
+    "sha256": "e1fb65f3ab44c2c3acf911b76257ffad110306c5fc82519c7389061c3ae63a1f"
+  },
+  {
+    "path": "models/core-20261028/STL/A_down_25_cassette.stl",
+    "bytes": 70984,
+    "sha256": "ab9a710843deb733e5eb6507af83cc7fbf725fda739055d71b5d884ac4ae085b"
+  },
+  {
+    "path": "models/core-20261028/STL/A_down_26_rotor.stl",
+    "bytes": 40284,
+    "sha256": "4be30c5139b59e26a9d0f4a6b295903a6a49faeb5a9f69677b25320f6e2f73d4"
+  },
+  {
+    "path": "models/core-20261028/illustrations/V29-镜头替换与固定位置.png",
+    "bytes": 873936,
+    "sha256": "43c405ec52d3bd838389d54cc7d19f588d75e08ff5d8424bf8fc9f2e9d244f9c"
+  },
+  {
+    "path": "models/core-20261028/illustrations/当前完整模型-三盘对照.png",
+    "bytes": 270622,
+    "sha256": "6e52c7b5f0d4c971ad6855ef537c488568108be431ebfe61aef2198c4665c779"
+  },
+  {
+    "path": "models/core-20261028/source/Blender源文件核对.json",
+    "bytes": 7182,
+    "sha256": "40c10d5840bace85e54fc4b5240e2ed5bf7992ea7142c50adb36e2deadc0a7ab"
+  },
+  {
+    "path": "models/core-20261028/source/完整模型_0.16mm/filament-full.json",
+    "bytes": 7677,
+    "sha256": "ea1bcd95898bc1bd73e8367397b2bbab03ead5174f6c902ddba07548339a7072"
+  },
+  {
+    "path": "models/core-20261028/source/完整模型_0.16mm/machine-full.json",
+    "bytes": 15900,
+    "sha256": "fff77bd214149df76ab7b639838eba51d16ddb26cae63aa27fa95ac522f8afe1"
+  },
+  {
+    "path": "models/core-20261028/source/完整模型_0.16mm/process-petg-matte-camera2.json",
+    "bytes": 9642,
+    "sha256": "470602051ad0e71ebc095a3d3389c9a3bca500cda48486ed0622f779ecf7e2a1"
+  },
+  {
+    "path": "models/core-20261028/source/完整模型_打印对象与排盘.json",
+    "bytes": 136807,
+    "sha256": "fe8686265f72f4472d9fa3b1ad2dfb4a7f2d9d747aecba7c55bba25b2a24a53a"
+  },
+  {
+    "path": "models/core-20261028/source/当前完整装配.blend",
+    "bytes": 757887,
+    "sha256": "df3054567c990a4c8627a84049810e243385eb3a4af8fc7eefaf1ac13b33d000"
+  },
+  {
+    "path": "models/core-20261028/source/当前组合说明.json",
+    "bytes": 25631,
+    "sha256": "91817225fa0f137d3cdeea221ae947ebe5e98461d8b45dd1bd2283ca6929ef3a"
+  },
+  {
+    "path": "models/core-20261028/source/当前装配_毫米坐标.json",
+    "bytes": 1139463,
+    "sha256": "efa4ca88b02cb0cd2795c7e6c9ced2911b7b659c2849a348d4b258002d18437c"
+  },
+  {
+    "path": "models/core-20261028/原版安装说明.md",
+    "bytes": 17456,
+    "sha256": "ce10b38bed1642736dc06994c825cd4bb385c00c61f53acae8317d3c5fb0111e"
+  },
+  {
+    "path": "models/core-20261028/零件与复用清单.csv",
+    "bytes": 15184,
+    "sha256": "2bbc8cf8b8944b9d1e64c879ac22465c4c30a804b7845ff254f5f7da69d3c82f"
+  },
+  {
+    "path": "models/exterior-concept-r01/Junshu_Reference_Camera_R01.step",
+    "bytes": 1105219,
+    "sha256": "6a39d9956d2f7a93158b385a98ea961afff9e7fc4d1dcee18f74ba5980263b2f"
+  },
+  {
+    "path": "models/exterior-concept-r01/Junshu_Reference_Camera_R01_ViewFixed.FCStd",
+    "bytes": 181701,
+    "sha256": "b62b7e4e389821b6644c2102627799ca48775ca4367389a3eb40f5d1e7a5f42c"
+  },
+  {
+    "path": "models/exterior-concept-r01/README.md",
+    "bytes": 767,
+    "sha256": "8264bdda3fad0548847e0c422826defb674dd854f793fd535c7e9519983a0d5d"
+  },
+  {
+    "path": "models/exterior-concept-r01/source/build_cad.py",
+    "bytes": 7586,
+    "sha256": "139687f1cb881e6aed75133c93375d0a1476a69de48d54424620956a7c915aaa"
+  },
+  {
+    "path": "models/exterior-concept-r01/source/parameters.json",
+    "bytes": 435,
+    "sha256": "e67390c99f5f113ca4deb12f724b55c5cae875784cb50649cd52a10f9d61b586"
+  },
+  {
+    "path": "models/hood-n3-v1/N3_V1_X2D_PETG_Matte.3mf",
+    "bytes": 1279917,
+    "sha256": "ca1600804a704ac018b2f64607f58df382ef19087fb67c9b22313ae2f3bb862b"
+  },
+  {
+    "path": "models/hood-n3-v1/guides/N3-V1-打印与逐步安装.html",
+    "bytes": 926866,
+    "sha256": "6aa38db5aa7b0b53d694000704680832cadc3e517a22ce2f9b3055d74d71c71f"
+  },
+  {
+    "path": "models/hood-n3-v1/guides/零件与打印清单.csv",
+    "bytes": 846,
+    "sha256": "72eb6715a6f90a22692087eb87f630330d7313cb30c13fb88a4d3a7fe240f92e"
+  },
+  {
+    "path": "models/hood-n3-v1/source/N3-V1-装配模型.blend",
+    "bytes": 499616,
+    "sha256": "9984b65e3bc4dab5728708be454647f0d53a6f08ca09fc856073998d757cecae"
+  },
+  {
+    "path": "models/hood-n3-v1/source/meshes-n3-v1.json",
+    "bytes": 648954,
+    "sha256": "cf7f16b353a3088a52845e0f873737d24617fa56e282d81b4fcbe50531b1b57f"
+  },
+  {
+    "path": "models/hood-n3-v1/source/parameters-n3-v1.json",
+    "bytes": 6816,
+    "sha256": "17268ff02ca2c6c441f607c8ba5cc7b51c7a5d3c4d50d7a187f7c94b521733bf"
+  },
+  {
+    "path": "models/hood-n3-v1/source/print-manifest.json",
+    "bytes": 83851,
+    "sha256": "aeedfb9478b6cd03241fcb9caf59e8ce9d192d8b3ca6aa0884bb448e2fbe7d12"
+  },
+  {
+    "path": "models/hood-n3-v1/stl/01_N3_clip_on_frame.stl",
+    "bytes": 446984,
+    "sha256": "28a8568a855694bc798ca421525f7c39351afdf632a1ac9f66a10fa60110efd6"
+  },
+  {
+    "path": "models/hood-n3-v1/stl/02_N3_noncontrol_panel.stl",
+    "bytes": 96184,
+    "sha256": "6d7792b55774687fe79e5fbc8fbf6ed686edc96a22f27ea5f8638e38ed323dd7"
+  },
+  {
+    "path": "models/hood-n3-v1/stl/03_N3_control_panel.stl",
+    "bytes": 96184,
+    "sha256": "ee6f4fb0719f3577ef9e4eff405a3927a431861ef074c9a7f89607212dc39800"
+  },
+  {
+    "path": "models/hood-n3-v1/stl/04_N3_lens_high_panel.stl",
+    "bytes": 70484,
+    "sha256": "58b8e5601f9a657543877d44470333afa3cd5f2fb6f48c02282aa449100900cd"
+  },
+  {
+    "path": "models/hood-n3-v1/stl/05_N3_retaining_axle_L.stl",
+    "bytes": 30684,
+    "sha256": "3e00b54c85403930a67cf68f018e2908bbe1e93e5ee4f521e3d8b9dddf04ddab"
+  },
+  {
+    "path": "models/hood-n3-v1/stl/06_N3_retaining_axle_R.stl",
+    "bytes": 30684,
+    "sha256": "1cea0b82d663a3933bc9940a2b4a2f2e596ad8687ff87b7f10503c9d02cbc558"
+  },
+  {
+    "path": "models/hood-n3-v1/stl/07_N3_retaining_axle_F.stl",
+    "bytes": 30684,
+    "sha256": "269a348d839162064bb55e87614ed966e110ae93e250b7b578fa4033c19ce4d5"
+  },
+  {
+    "path": "models/lever-v30/01_X2D_PETG_Matte_V30_Lever_Fit_Calibration.3mf",
+    "bytes": 690848,
+    "sha256": "b3f65afaebf328b8c55c4b22fd70b07c8084ed2d6abcf7248b7a80073f101cd6"
+  },
+  {
+    "path": "models/lever-v30/images/V30-六件标记与测试顺序.png",
+    "bytes": 344156,
+    "sha256": "16a51c25b40f3dcbcdb1f6663bafeebb5c4b8c35f58c74b49a6f305a1a93b63e"
+  },
+  {
+    "path": "models/lever-v30/images/actual-top-layer-paths.png",
+    "bytes": 61146,
+    "sha256": "27296b92444a273589d38416ddb5ef56b7461eee01d6fd3f3c60468125f77f42"
+  },
+  {
+    "path": "models/lever-v30/source/meshes-delivery.json",
+    "bytes": 145390,
+    "sha256": "d75a89d88b77041fb084cf4eab61af4e6fe933717981b6ac1921adfba1b079d6"
+  },
+  {
+    "path": "models/lever-v30/source/print-parts.json",
+    "bytes": 1259,
+    "sha256": "54539b07813923bfeb1a471d50ef07f03b3929e76fe1bf7c5cc792230dcba468"
+  },
+  {
+    "path": "models/lever-v30/stl/F1_26_rotor_pickup_0.10mm.stl",
+    "bytes": 41784,
+    "sha256": "ef30dea7b1ab1a73c1b201a1a501c2bbc7d0be5723c10e05e049668ff29cf0fe"
+  },
+  {
+    "path": "models/lever-v30/stl/F2_26_rotor_pickup_0.15mm.stl",
+    "bytes": 42284,
+    "sha256": "671a0d5946d2a0fdc2951aac4174bb59095ccf0f6fd4592d44df6fb3eb81e97e"
+  },
+  {
+    "path": "models/lever-v30/stl/F3_26_rotor_pickup_0.20mm.stl",
+    "bytes": 43084,
+    "sha256": "7432fc4fe830d7e7de8e8187f17a28be953d66b715f386a5a67870f7fc32604d"
+  },
+  {
+    "path": "models/lever-v30/stl/T1_28_keeper_1.40mm.stl",
+    "bytes": 30084,
+    "sha256": "0cc7e2016bc13f4960fb938d8bc4ae249e365533bc00db33022a2e0935e50fd3"
+  },
+  {
+    "path": "models/lever-v30/stl/T2_28_keeper_1.52mm.stl",
+    "bytes": 30884,
+    "sha256": "03972e4ab48e530244e70b6441d5fbc4fecb3f8cb01af7104db247a6b42e175c"
+  },
+  {
+    "path": "models/lever-v30/stl/T3_28_keeper_1.64mm.stl",
+    "bytes": 31684,
+    "sha256": "67bc7594374a16fab176608b3fd1f3981a06a1da2986e0bdca2c9c62065322a3"
+  },
+  {
+    "path": "models/lever-v30/原版试配说明.md",
+    "bytes": 5854,
+    "sha256": "663788750ed406e39326978399bfc17780e9de7170a39ae7bb8e969be4a52f54"
+  },
+  {
+    "path": "models/usb-c-g2/01_X2D_PETG_Matte_USB_C_G2_Corrected_2Plates.3mf",
+    "bytes": 639408,
+    "sha256": "f096c0343c80b181d716fa38aadd6d45d9912524a465c19df142280e556a4f60"
+  },
+  {
+    "path": "models/usb-c-g2/README.md",
+    "bytes": 774,
+    "sha256": "2010a924847f0bf2ed14e4d970774d969a0a4a6fa1336952190987abdb60520d"
+  },
+  {
+    "path": "models/usb-c-g2/source/G2-方向修正与原底板.blend",
+    "bytes": 215186,
+    "sha256": "081bbc1cf40b44082145285306ca79a0ba06eff51b1f54db2198d6dc1abfabda"
+  },
+  {
+    "path": "models/usb-c-g2/source/assembly-g2.json",
+    "bytes": 25675,
+    "sha256": "f94187435198914a04285c303bf6f0b7a414a8b3be68a1c08c4d81b40c7a910f"
+  },
+  {
+    "path": "models/usb-c-g2/source/correction.json",
+    "bytes": 1709,
+    "sha256": "525cfc3a8167abfba356c4d374161beac5d8a729cbb4c03a85a8798569f84d22"
+  },
+  {
+    "path": "models/usb-c-g2/source/print-manifest.json",
+    "bytes": 1765,
+    "sha256": "44fe42f52ee6a7df6bb33f6d798a8e7bf6d7e500b164defc88213169876746a2"
+  },
+  {
+    "path": "models/usb-c-g2/stl/04_bottom_lid_recessed_usb-c.stl",
+    "bytes": 82484,
+    "sha256": "479c514ab56c321bb796052687e8bcd986d60b289eb1036d0f8d50582fd97050"
+  },
+  {
+    "path": "models/usb-c-g2/stl/30_G2_matched_sliding_cover.stl",
+    "bytes": 4284,
+    "sha256": "5e53c3865e371abbfde3966c5053e3e2afcff7d6ade31c804c55b0aff832cc80"
+  },
+  {
+    "path": "models/usb-c-g2/stl/31_G2_glue_carrier.stl",
+    "bytes": 25884,
+    "sha256": "c325061d3f3cf8a43728f8e1e737717d1efd01b1713a5796910ecf544302aca0"
+  },
+  {
+    "path": "models/usb-c-g2/stl/32_G2_wide_U_rear_stop.stl",
+    "bytes": 3884,
+    "sha256": "cbd6cde21f68b09252b26413e3b30b59b2ec425d2ddb6d3b5bc42bbcc164bf46"
+  },
+  {
+    "path": "project-reference/requirements/PRD.md",
+    "bytes": 30392,
+    "sha256": "f3da761e52af2a963fd4f2688af2a6d55ba1405cc27741037e4b12d8e13f50ba"
+  },
+  {
+    "path": "project-reference/requirements/README.md",
+    "bytes": 669,
+    "sha256": "c490bd6ef5a65e54120db0915b2ef3b624e81d6075c523d3902d3142be659348"
+  },
+  {
+    "path": "project-reference/requirements/decisions.md",
+    "bytes": 17918,
+    "sha256": "21e9a2a404fe4556d1233c17fbaa91f509e625a00a1d79ac80a4d1363fcddeaf"
+  },
+  {
+    "path": "project-reference/requirements/questions.md",
+    "bytes": 17808,
+    "sha256": "33a1b120bc60363ac1bf4ec3a075e4751bcf7354b2073a0d86008770bb2f4215"
+  },
+  {
+    "path": "project-reference/requirements/references/C-P1-selected.png",
+    "bytes": 1991383,
+    "sha256": "52b6c5ab7f9267f5b25dca1bf395004e19653b8ddf1fe73b7820ade954e637f5"
+  },
+  {
+    "path": "software/README.md",
+    "bytes": 3782,
+    "sha256": "788ebdbfdbef386a758bf4dda922249169b475f451939d01e82da29b0b301ef4"
+  },
+  {
+    "path": "software/dist-1.0/junshu-camera-boot-1.0.0.tar.gz",
+    "bytes": 106834,
+    "sha256": "86b9e693f9874c759ab67de92549e19d3875141aa3d7d649314313de2108131d"
+  },
+  {
+    "path": "software/dist-1.0/junshu-camera-boot-1.0.0.tar.gz.sha256",
+    "bytes": 98,
+    "sha256": "ed57dd45b58e45a704daca6af75741604c5436e29d224c20dca2e29eb13f2ffe"
+  },
+  {
+    "path": "software/dist-1.0/junshu-camera-pi-1.0.0.tar.gz",
+    "bytes": 177741,
+    "sha256": "4f8ccead3eae4f66a1b4ba8f7603a0977cbc91d1864403f62617c7c1feb934e3"
+  },
+  {
+    "path": "software/dist-1.0/junshu-camera-pi-1.0.0.tar.gz.sha256",
+    "bytes": 96,
+    "sha256": "55b0610c516ad21426380b746757ef2bd3e26456001d16544f11fa1d5df38643"
+  },
+  {
+    "path": "software/pi-boot-logo-1.0/MANIFEST.sha256",
+    "bytes": 410,
+    "sha256": "671e229d5052c40734decd39a1f0d25f2a21a5515749bc073a0aeebe84c7ed3f"
+  },
+  {
+    "path": "software/pi-boot-logo-1.0/VERSION",
+    "bytes": 6,
+    "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+  },
+  {
+    "path": "software/pi-boot-logo-1.0/boot_system.py",
+    "bytes": 52325,
+    "sha256": "523dc0c6290ab387c7c5d85cd1a124d6bbce265479af4c3282c3f8bbc012b737"
+  },
+  {
+    "path": "software/pi-boot-logo-1.0/qa/upgrade-20261028.md",
+    "bytes": 3312,
+    "sha256": "46a27b0b5ca6dd7c80a60cfb44c00ff6963cbe18517121c80e8c74aa5af2a524"
+  },
+  {
+    "path": "software/pi-boot-logo-1.0/tests/test_upgrade.py",
+    "bytes": 13468,
+    "sha256": "15f0e4bbcba0af5cbc1f4962bbea502cecf3199c3712166a29aa7a11c9ba23c2"
+  },
+  {
+    "path": "software/pi-boot-logo-1.0/theme/junshu-camera-test.plymouth",
+    "bytes": 279,
+    "sha256": "a321190d52fd65e43fae89cf80dacf3b375ee162071556c0c521221b04d9dc15"
+  },
+  {
+    "path": "software/pi-boot-logo-1.0/theme/junshu-camera-test.script",
+    "bytes": 2765,
+    "sha256": "ed20388f9ebd447833c711d48aac1ef2ebf84586529253db2815e9ac1bb15fa8"
+  },
+  {
+    "path": "software/pi-boot-logo-1.0/theme/logo.png",
+    "bytes": 91094,
+    "sha256": "8a8249c28098749e0b7a780a0d25a8e0120b3fe8a1a0fef39c6cd0928dcbfb2c"
+  },
+  {
+    "path": "software/pi-boot-logo-1.0/theme/newcam.plymouth",
+    "bytes": 204,
+    "sha256": "402e916c7f34dd89178ed9c79857449d2dd4d8b80b2443e37d79b46f47205b3c"
+  },
+  {
+    "path": "software/pi-boot-logo-1.0/theme/newcam.script",
+    "bytes": 3049,
+    "sha256": "485decda52c25c40fe55cc52b033876403fe3edd497c4cc229bd6a1a064974d3"
+  },
+  {
+    "path": "software/pi-boot-logo-1.0/theme/page-1.png",
+    "bytes": 12101,
+    "sha256": "558d77f50adfea567a9ab5ba3b404c6f18e824815204b8e991f8f57471e1b0df"
+  },
+  {
+    "path": "software/pi-boot-logo-1.0/theme/page-2.png",
+    "bytes": 12614,
+    "sha256": "91f5f52a25a8157604647ffc6df88eeade41f9f1181fcbc9c4d78402a35050e7"
+  },
+  {
+    "path": "software/pi-camera-1.0/MANIFEST.sha256",
+    "bytes": 2800,
+    "sha256": "5618f5722305692e15244ab0652f1f55e11db5acfe5b27cc2c9cb7022fe9e58f"
+  },
+  {
+    "path": "software/pi-camera-1.0/README.md",
+    "bytes": 2905,
+    "sha256": "211d4123c8e66a11aa6b5892b00a0ee0f485e6cdf0893ac64df71202cbb725dc"
+  },
+  {
+    "path": "software/pi-camera-1.0/TESTING.md",
+    "bytes": 1452,
+    "sha256": "f817a99442c83641277bbdbb9af5e56e53e6fe0106f33cfb6ff70d755ba08d35"
+  },
+  {
+    "path": "software/pi-camera-1.0/assets/boot-logo.png",
+    "bytes": 91094,
+    "sha256": "8a8249c28098749e0b7a780a0d25a8e0120b3fe8a1a0fef39c6cd0928dcbfb2c"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/artwork.py",
+    "bytes": 27089,
+    "sha256": "ec4ccd4399c18b090a2b30bda37956e490bb401f6abaab66e97cdab54e1eaae6"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/camera.py",
+    "bytes": 19113,
+    "sha256": "3767cb1ed90136ed6ecf9bebfcaf074196c1d65a89513cddc18561da791095a0"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/capture.py",
+    "bytes": 6839,
+    "sha256": "f74af7279e9be4295166a590cf7bef1f2520651c2f6170fdbcbb164244e5e6dc"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/framing.py",
+    "bytes": 2635,
+    "sha256": "724ae936cb8e14c575e957624dcb84182f6fdb26e9e5a202a4821053eda9bc7c"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/gpio_probe.py",
+    "bytes": 7495,
+    "sha256": "2c8229b620c3e3777ecde0aea27228e8fb2096d56ff02c33032fc9361c9330c4"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/gui.py",
+    "bytes": 52197,
+    "sha256": "b86a39f398e8954c92e88081f1ed13afa11cf614f09d83dfabdb44760cb43c5a"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/imaging.py",
+    "bytes": 1210,
+    "sha256": "2141597d3085f84019384c7b7d2e4e08fb93db42b4b760b82cf73160bdf46ada"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/l1_input.py",
+    "bytes": 5377,
+    "sha256": "5853420cc7f5400c9a03d53360a18cc7c534df2b5b997d09c527c329685424bd"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/loading.py",
+    "bytes": 3865,
+    "sha256": "fd4ce4b8fea6f993687478a99e6940f240bc4897cf0d4a1f4f8afa832a369188"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/photo_share.py",
+    "bytes": 20806,
+    "sha256": "6d341011f3f6201422c387b35c788d22fe5625ff744b8cea1e8207c6757e2254"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/platform_io.py",
+    "bytes": 10490,
+    "sha256": "16cc31b933fda35088bfdf3b51a321bdc985298e55270b3a1c1ef771b03f0118"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/power_bridge.py",
+    "bytes": 8325,
+    "sha256": "fa46ae7aa1029e363f314a4208a8c3e139ab74367e257116773657907ac7f1d6"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/power_client.py",
+    "bytes": 8319,
+    "sha256": "b3fd028f2734a07c12b715f28a95658013958bc9a691b9f9a7f9bc384add65a8"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/power_gpio.py",
+    "bytes": 14648,
+    "sha256": "31eb034a072af78b6a2aa621357bef47e5f9dbbf089c0094a4134b06021da4a1"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/power_indicator.py",
+    "bytes": 801,
+    "sha256": "273f4bfa590c2ff45a7950e3bb31e1351424d85f11932eebc7f3c563ac0e63b8"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/power_service.py",
+    "bytes": 14118,
+    "sha256": "85efa028e17dd141b269e3f2d7dcedfc6360c06fc9e480d55fec38f9f3039faf"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/share_network.py",
+    "bytes": 2438,
+    "sha256": "76e3f9e4fb7dd185f3e6dcfe891a3dbf27ef1edc49a9a5ff6cc2d8185e6a8f31"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/share_page.py",
+    "bytes": 5607,
+    "sha256": "6764019f69841132fc6d62c245eee95c2943f24f6ed4d959cddc387f0ccb7322"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/share_ui.py",
+    "bytes": 4504,
+    "sha256": "b7544b7ad2581f01877e18012a38722c62e97d3addd7a2af6654694806f07df4"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/state.py",
+    "bytes": 4615,
+    "sha256": "f5606bf1b5b4f94d6cbd20f0afdd7596dc0ccc79fb38cc73717ba72d9d044f6d"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/storage.py",
+    "bytes": 7318,
+    "sha256": "578e610424cdf78c7c05672ee4203bd7e6873cadcf6dc045104606f5ce56bdbe"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/vendor/LICENSE-qrcodegen.txt",
+    "bytes": 1137,
+    "sha256": "46284330ef0ff1da992ad281ce4818e3e3dafdae06ed61044bcc2deea7de7485"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/vendor/README.md",
+    "bytes": 687,
+    "sha256": "6ef6127c62b22a63a0509eaed0499d7328c04f35b2bf8e97bc747506e05810a7"
+  },
+  {
+    "path": "software/pi-camera-1.0/camera_r4/vendor/qrcodegen.py",
+    "bytes": 39349,
+    "sha256": "9f4ed1dd201dcb92b1bc0d6e14f46c754bcff0ce48580c5d7e8ace8f6926c8ef"
+  },
+  {
+    "path": "software/pi-camera-1.0/check_package.py",
+    "bytes": 8230,
+    "sha256": "dbc5981d8a425d567510aaac58b328aac1c4663392a1b9f1fb74a46ccede9f03"
+  },
+  {
+    "path": "software/pi-camera-1.0/desktop-launcher-step.md",
+    "bytes": 1800,
+    "sha256": "c9a4b2d53f2f5a30047080241b6d45fdcfd47a98c31915cfc3062bfecdb27b68"
+  },
+  {
+    "path": "software/pi-camera-1.0/feature-status.md",
+    "bytes": 1848,
+    "sha256": "1a91597893e2b990e8e4d54caa93991ab94f2fc21e832372a853441943850240"
+  },
+  {
+    "path": "software/pi-camera-1.0/inspect_gpio.py",
+    "bytes": 179,
+    "sha256": "695e98d509805cdb38d69840a3df28962088de066c31bad903a213e49dee8837"
+  },
+  {
+    "path": "software/pi-camera-1.0/inspect_power_gpio.py",
+    "bytes": 188,
+    "sha256": "c551512a1fe6c74eaf6dbff7f85880f856de6df40b3f9df7c4a5d7c3ddb35468"
+  },
+  {
+    "path": "software/pi-camera-1.0/install_power_service.py",
+    "bytes": 18613,
+    "sha256": "6cf5809de4edd9ca0579e8e592dcde62028a66e7209414173d7114d5cb47181d"
+  },
+  {
+    "path": "software/pi-camera-1.0/power_service.py",
+    "bytes": 3993,
+    "sha256": "788e634136a6be6fa7bf23c800f902cdc02fe0175531b656ce30e32c80a2e7bd"
+  },
+  {
+    "path": "software/pi-camera-1.0/run_camera.py",
+    "bytes": 4290,
+    "sha256": "7a326a9b37451a00581e6fbd31d60368ed39e0c321b0e0c364b1ba7fb3ace2bf"
+  },
+  {
+    "path": "software/pi-camera-1.0/session_setup.py",
+    "bytes": 18042,
+    "sha256": "5a7a0520e243ec670098dbf388266436c3f75adfe3ebfcba77b183dd9c5dc878"
+  },
+  {
+    "path": "software/pi-camera-1.0/start-autostart.sh",
+    "bytes": 714,
+    "sha256": "6d7d30446b69120ccb14fca7c44d97f95e593b76d21e6f2adab05c7347639372"
+  },
+  {
+    "path": "software/pi-camera-1.0/start-camera.sh",
+    "bytes": 534,
+    "sha256": "b2675122788f63a6f555c4226f83e447a97da83d9c12a85fe0d02ccb70743e50"
+  },
+  {
+    "path": "software/pi-camera-1.0/start-session.sh",
+    "bytes": 1394,
+    "sha256": "dd742f3b78961412a584c6d1c4fe5e919be5edc9838196e519c691c2f05b49ad"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_capture_r4.py",
+    "bytes": 6628,
+    "sha256": "98fd7266b25e28d6e1b0e575e05dea9f01a54d7e1337c8e9afe1256a5e614b76"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_framing_camera.py",
+    "bytes": 15313,
+    "sha256": "1f0ca5fa71951767b5cf3575fd3e136f00f0142c0913317a80b8e4ef794037ca"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_gpio_probe.py",
+    "bytes": 5737,
+    "sha256": "ff11f0974c52cdbccc738e3fd066f4aeb0e4f6e3ebb0bd93a0f0112a3f9e49d7"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_gui_r4.py",
+    "bytes": 16118,
+    "sha256": "a8f4d5c7a273c46b5d27484605adcf2d42d89d55dc178de3301da3e7a2791d91"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_l1.py",
+    "bytes": 4987,
+    "sha256": "22b05c97c0b3f930d769750fbdfa8da8833d077c0f7566ece0dc8659b5346650"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_l1_gui.py",
+    "bytes": 5208,
+    "sha256": "c8e103b9e893a44f5e2f3de0296307c54a70980e809f47b7a053212ee0492295"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_launcher.py",
+    "bytes": 933,
+    "sha256": "43831b3709019561a1fe277ecc7f526479ddc25462e87d3de6a288ef13cf172d"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_newcam_entry.py",
+    "bytes": 1071,
+    "sha256": "9669779ced9445e7649b0a4387f2e8852ab74de1d6cb8fe3b27ce7ed04ec465d"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_newcam_gui_ready.py",
+    "bytes": 4211,
+    "sha256": "d75f9b0bc0899aa49e6f114dc9d7b00718043ae7699317b7d0285cf6cceb7512"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_newcam_loading.py",
+    "bytes": 4276,
+    "sha256": "b0b6fc8fa97198dd4b155650c91eae4c4dc6dbb285ab13ef6d28c3dd666a3c0e"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_newcam_session.py",
+    "bytes": 14039,
+    "sha256": "6a7902d7dc004c622f66715e946aee12dc3988029a717556df16e7103ee40454"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_next_delivery.py",
+    "bytes": 10433,
+    "sha256": "a7473e4cabbec81af7fd20d19c772393fdf0b144923cd0e599ba49aac721a620"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_next_gui.py",
+    "bytes": 13313,
+    "sha256": "4594cb36d1deeba3b968ac6b1741389837825ea003914099b77f7a6d08a8f30b"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_photo_share.py",
+    "bytes": 20944,
+    "sha256": "38530e4e3f35753850f9c2fb5e1cbd6ea1706f389c4d4c98438d93af35684222"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_platform_io.py",
+    "bytes": 10853,
+    "sha256": "1064957c45477c13a87c1ad8773b96a4ca20ddc714589a747d59bbd2d763bbc1"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_power_client.py",
+    "bytes": 5683,
+    "sha256": "7c7902f3be5501faf603b3eee252a87521869cbccc6ef09b28cb732544a6ac83"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_power_drain.py",
+    "bytes": 2629,
+    "sha256": "64ffcb95dfd326b805ccd42859e2da9f3556edaf33072aa9e2959bb984a289d3"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_power_entry.py",
+    "bytes": 3917,
+    "sha256": "25fd0de670ae5ee65c341947dcc772d4e4062a5346cfc5adbd703b9a2d3abba4"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_power_gpio.py",
+    "bytes": 16997,
+    "sha256": "ca5a62f9ed161c12d81fe79e366eb5e1bba569236f1fd7450c82a591f7779775"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_power_gui.py",
+    "bytes": 6993,
+    "sha256": "485dd1c70572a43282b5d88db398132e7eaa99fefbfec23359f9493e3d11d15e"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_power_install.py",
+    "bytes": 23807,
+    "sha256": "e4a714e4c6adbb624d18134e41d3231500f72ac18681ff4790029823aaccdf92"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_power_service.py",
+    "bytes": 15342,
+    "sha256": "8fc9d1e1f3eccca7c9604c9970501acac9780b5653be8270f5629d917c3172f7"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_preview_performance.py",
+    "bytes": 7331,
+    "sha256": "23532de950a2638ab16df4417673597110baaa5d49851c4f46b0ac00701bcff7"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_probe_command.py",
+    "bytes": 1330,
+    "sha256": "af7ac1af4fe0250eba7667c685a39ed1215b5a373fda36f96b478c75bce6b4f5"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_probe_device_compat.py",
+    "bytes": 6015,
+    "sha256": "8fb23a5b731be2764daceafeed475c8aad9211eb8cb3ccfc8229be2a6a6a3ed9"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_release.py",
+    "bytes": 11186,
+    "sha256": "4a4f6d11a08393ce12760485f84c0e9c291d8458098abcbbbec08484b466ea18"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_share2_update.py",
+    "bytes": 11185,
+    "sha256": "e2fc7da8cfc4d2cd930d32f6bfea92ec25aaff2d2b384cd0816f669cc7a1a9ce"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_share_gui.py",
+    "bytes": 17300,
+    "sha256": "243d0ad203e79c10032e499bdcc4d732fc3904af3aa4a131ab44860e6890c69e"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_share_network.py",
+    "bytes": 4440,
+    "sha256": "f4daf64cbd15d7492a7740d7ab9569374f56f2b722bdee1bf7da3553b310ccdd"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_share_qr.py",
+    "bytes": 941,
+    "sha256": "500db0fef925f0b170b958241bf4b33756e3681cf7d4531d3662ef13857a5270"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_state_storage.py",
+    "bytes": 7627,
+    "sha256": "bf6ada00a079c0ed3c52cbc7d0e6961cc4ffc6770f70faf96b13f8648dc9f15a"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_system_features.py",
+    "bytes": 28308,
+    "sha256": "bf17005b98fb9dc75fb40fbfff8a5e0f476ba35a96bbb38aa1a2656aa125b8da"
+  },
+  {
+    "path": "software/pi-camera-1.0/tests/test_transfer_release.py",
+    "bytes": 9720,
+    "sha256": "499b3e5a34121c71d59aee6dc56795c1dfe66d316719387982e0fe60d3bf1215"
+  },
+  {
+    "path": "software/pi-camera-1.0/verification.json",
+    "bytes": 462,
+    "sha256": "5ee2a90f6ee27bd180ae4ae4aa271446bb9508274de20d14f7542d9d514a3c08"
+  },
+  {
+    "path": "software/reference-mac-entries/修复并继续安装NewCam1.0.command.txt",
+    "bytes": 533,
+    "sha256": "671ea347d67bfdce5c21d38d55c365154ba1b90796d52466d6c4b53c284ee99a"
+  },
+  {
+    "path": "software/reference-mac-entries/回退NewCam1.0.command.txt",
+    "bytes": 356,
+    "sha256": "4e7cca423e283037577bd2538b4c7a08dd5e8521fbfd22c4ce9925bbc5065fae"
+  },
+  {
+    "path": "software/reference-mac-entries/安装NewCam1.0.command.txt",
+    "bytes": 597,
+    "sha256": "70bc14f68448e3d33f71eefc9cd3d987892fae53b53d27e291d242b69052fa7e"
+  },
+  {
+    "path": "software/reference-mac-entries/权限兼容修复说明.md",
+    "bytes": 1577,
+    "sha256": "7f791aa9977046c720f7cf81e29a7946ab6a7ea6c5f7a5cc5bd519e645acfae8"
+  },
+  {
+    "path": "software/reference-mac-entries/核查NewCam1.0安装结果.command.txt",
+    "bytes": 500,
+    "sha256": "521dd2657e898a0e12bf5279988387a369c8a16836e37fcfc0ef24f0c653d318"
+  },
+  {
+    "path": "software/reference-mac-entries/核查NewCam1.0环境.command.txt",
+    "bytes": 350,
+    "sha256": "5bb5394efcab0be74b1068c8453bbe463d368ebdb36df09a6a07231122b1cf47"
+  },
+  {
+    "path": "software/tools/build_camera_v1_release.py",
+    "bytes": 4063,
+    "sha256": "7e2266be8904e5896fa05bd69650ed166df824be13b47a044c56bc8e2b6f16e7"
+  },
+  {
+    "path": "software/tools/camera_v1_boot_payload.py",
+    "bytes": 7145,
+    "sha256": "ddcafc932feec7970ee1e713330890641a38bc196ab4b08404cddb6128a7d38d"
+  },
+  {
+    "path": "software/tools/camera_v1_launcher.py",
+    "bytes": 2645,
+    "sha256": "c7c1171ad5aebcaddd3812402c2c903002f0cc3f9a7ed8c054c10e81a0e4d04c"
+  },
+  {
+    "path": "software/tools/camera_v1_remote.py",
+    "bytes": 18299,
+    "sha256": "a789ed5c8754f9496735160551552f3d3786336c5505b32176c6aecfe38d3653"
+  },
+  {
+    "path": "software/tools/camera_v1_session_permissions.py",
+    "bytes": 4208,
+    "sha256": "adc300dd72bc1faf732afe675ddd340aa3f6355159d17e19b8f01457e3068768"
+  },
+  {
+    "path": "software/tools/pi_next_remote.py",
+    "bytes": 16348,
+    "sha256": "cdf7f9af7ad4187c57843d20a0f1a42a0ac6a244f6e01ab479ad38624da12d58"
+  },
+  {
+    "path": "software/tools/tests/test_camera_v1_delivery.py",
+    "bytes": 15590,
+    "sha256": "8e6b9677d3ff67c64fbeb9e476457eb0b5a3865fdeb4a3aba0a946dc709906e5"
+  },
+  {
+    "path": "software/tools/tests/test_camera_v1_permission_repair.py",
+    "bytes": 6931,
+    "sha256": "15eedd0ab54a9317d6ab8e770d98b5d63bd3a6cde5e5a8ff9b1e5bb6e3090d31"
   },
   {
     "path": "tools/build_site.py",
@@ -1188,6 +2363,11 @@
     "path": "tools/check_onboarding.py",
     "bytes": 3297,
     "sha256": "ae724d2145e26047aa53c869a414a0e977237052ed27d53bab87c3b383f2f84a"
+  },
+  {
+    "path": "tools/check_reference.py",
+    "bytes": 3891,
+    "sha256": "9d33c3cfa9b3dccd06ba9e4433dd72605fea814bf23c46a3352323dcd8a045d8"
   },
   {
     "path": "tools/check_site.py",

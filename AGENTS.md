@@ -1,6 +1,6 @@
 # Junshu 自制相机教程
 
-先阅读 README.md 和 GETTING-STARTED.md。
+先阅读 README.md、GETTING-STARTED.md 和 RELEASE-CONTENTS.md。
 
 ## 新观众开始自己的相机时
 
@@ -21,3 +21,7 @@
 当前 PDF 由 Junshu 单独审阅，未经她后续确认，不放入此仓库或网页下载入口。频道视频制作资料始终不在本仓库范围内。
 
 硬件、系统、材料与接线不同就重新核对。删除用户文件、重写存储卡、修改启动或实际连接设备前，先确认该具体动作确由用户要求。
+
+## 公开参考源码与模型
+
+software/ 与 models/ 已包含本次参考实现；先读各自 README。原软件冻结字节与模型几何保持，源码中原设备账户路径不是观众的配置。不要为通过安装器前置条件而删掉保护检查。原 .command 保存为 .command.txt 仅供阅读；初次引导不运行设备安装、启动、GPIO或打印指令。根目录 tools/check_reference.py 为无需相机依赖的只读完整性入口。

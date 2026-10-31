@@ -1,0 +1,514 @@
+{
+  "unit": "millimeter",
+  "frame": "same canonical V27 assembly coordinates, not STL on-bed coordinates",
+  "sources": [
+    "V27 body/common",
+    "V28 final six parts",
+    "V29 final four parts",
+    "A_down working cassette/rotor"
+  ],
+  "V30_choice": "pending user test; no F/T chosen",
+  "print_parts": [
+    {
+      "零件名称": "02 Screen retainer",
+      "原对应件": "02 Screen retainer",
+      "采用版本": "V27",
+      "用途分组": "01_主壳屏幕与底盖",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/02_screen_retainer.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/02_screen_retainer.stl",
+      "SHA256": "3b3bf535758fffe18f1a69804cbb25b4c49bace20fccb625f88274d59889c038"
+    },
+    {
+      "零件名称": "10 Anchor shoe 01",
+      "原对应件": "10 Anchor shoe 01",
+      "采用版本": "V29",
+      "用途分组": "02_镜头固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/10_camera_anchor_01_access_v29.stl",
+      "来源文件": "camera-project/E-结构/output/v29-camera-forward-service-20261027/stl/10_camera_anchor_01_access_v29.stl",
+      "SHA256": "5d2ba4d3aa4006b9895ca5a60ab04e4ad9f36bf8e263c82a0659e5ac8ce7cc41"
+    },
+    {
+      "零件名称": "11 Anchor key 01",
+      "原对应件": "11 Anchor key 01",
+      "采用版本": "V29",
+      "用途分组": "02_镜头固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/11_camera_anchor_01_corner_key_v29.stl",
+      "来源文件": "camera-project/E-结构/output/v29-camera-forward-service-20261027/stl/11_camera_anchor_01_corner_key_v29.stl",
+      "SHA256": "f8c52bbe6e7f6df426cacdd758dc9fc61b80641033abb6d907b14d21318a071f"
+    },
+    {
+      "零件名称": "10 Anchor shoe 02",
+      "原对应件": "10 Anchor shoe 02",
+      "采用版本": "V27",
+      "用途分组": "02_镜头固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/10_anchor_shoe_02.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/10_anchor_shoe_02.stl",
+      "SHA256": "d71b4c23c7092e22fd67dbb349a98c2fc8b9f5303c804ebbe0b24343bf2182f5"
+    },
+    {
+      "零件名称": "11 Anchor key 02",
+      "原对应件": "11 Anchor key 02",
+      "采用版本": "V27",
+      "用途分组": "02_镜头固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/11_anchor_key_02.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/11_anchor_key_02.stl",
+      "SHA256": "503297c7134270cd2810f8cf65447102662f3db87ce669845fb58dd882d0156d"
+    },
+    {
+      "零件名称": "05 Camera retainer",
+      "原对应件": "05 Camera retainer",
+      "采用版本": "V29",
+      "用途分组": "02_镜头固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/05_camera_rear_clamp_forward_v29.stl",
+      "来源文件": "camera-project/E-结构/output/v29-camera-forward-service-20261027/stl/05_camera_rear_clamp_forward_v29.stl",
+      "SHA256": "28e2700b81bb6844f00832b994c9772f94c9273892822c0ecac5dff8b2ab3563"
+    },
+    {
+      "零件名称": "12 Camera sleeve 22",
+      "原对应件": "12 Camera sleeve 22",
+      "采用版本": "V27",
+      "用途分组": "02_镜头固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/12_camera_sleeve_22.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/12_camera_sleeve_22.stl",
+      "SHA256": "81f8ef0c35c5936487088dbce2e6090a802f0fb3f42e77c8fd274bac6ee8f7fa"
+    },
+    {
+      "零件名称": "13 Camera key 22",
+      "原对应件": "13 Camera key 22",
+      "采用版本": "V27",
+      "用途分组": "02_镜头固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/13_camera_key_22.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/13_camera_key_22.stl",
+      "SHA256": "7b693f5075f6f376bdb8cb0e7b74376dc1a93cb616cd5b8beb22cf658e1ee4fb"
+    },
+    {
+      "零件名称": "12 Camera sleeve 56",
+      "原对应件": "12 Camera sleeve 56",
+      "采用版本": "V27",
+      "用途分组": "02_镜头固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/12_camera_sleeve_56.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/12_camera_sleeve_56.stl",
+      "SHA256": "1d6e590f6ca87df48be440993504ec42cf12911a19def1914b7586165e9ba6de"
+    },
+    {
+      "零件名称": "13 Camera key 56",
+      "原对应件": "13 Camera key 56",
+      "采用版本": "V27",
+      "用途分组": "02_镜头固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/13_camera_key_56.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/13_camera_key_56.stl",
+      "SHA256": "9097841d34b696c316b0f7bed0e22aea819af43af9f8df9feeb5df02d8f0366d"
+    },
+    {
+      "零件名称": "06 Camera cassette clearance",
+      "原对应件": "06 Camera cassette clearance",
+      "采用版本": "V29",
+      "用途分组": "02_镜头固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/06_camera_front_frame_forward_v29.stl",
+      "来源文件": "camera-project/E-结构/output/v29-camera-forward-service-20261027/stl/06_camera_front_frame_forward_v29.stl",
+      "SHA256": "33af73a4c886e0369e746e5966420d15c080dafdd3dfdb721309080ffe143263"
+    },
+    {
+      "零件名称": "10 Anchor shoe 03",
+      "原对应件": "10 Anchor shoe 03",
+      "采用版本": "V27",
+      "用途分组": "03_树莓派支架",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/10_anchor_shoe_03.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/10_anchor_shoe_03.stl",
+      "SHA256": "880c3fd1e6fb05bd0d93d70d53c963fba12fc96f0ce9f99110b31cb956d1a559"
+    },
+    {
+      "零件名称": "36 Long carrier lock 03",
+      "原对应件": "11 Anchor key 03",
+      "采用版本": "V28",
+      "用途分组": "03_树莓派支架",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/36_long_lock_03_v28.stl",
+      "来源文件": "camera-project/E-结构/output/v28-pi-carrier-reinforcement-20261027/stl/36_long_lock_03_v28.stl",
+      "SHA256": "5dc218a7508bd313ab5ff95db5aa4d60e156979c969c5744cb46709587799ec3"
+    },
+    {
+      "零件名称": "10 Anchor shoe 04",
+      "原对应件": "10 Anchor shoe 04",
+      "采用版本": "V27",
+      "用途分组": "03_树莓派支架",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/10_anchor_shoe_04.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/10_anchor_shoe_04.stl",
+      "SHA256": "b8ae6161b96143516c6e6536930f1aada43ff60a969fa55bee5c1233db80ec8a"
+    },
+    {
+      "零件名称": "36 Long carrier lock 04",
+      "原对应件": "11 Anchor key 04",
+      "采用版本": "V28",
+      "用途分组": "03_树莓派支架",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/36_long_lock_04_v28.stl",
+      "来源文件": "camera-project/E-结构/output/v28-pi-carrier-reinforcement-20261027/stl/36_long_lock_04_v28.stl",
+      "SHA256": "5dc218a7508bd313ab5ff95db5aa4d60e156979c969c5744cb46709587799ec3"
+    },
+    {
+      "零件名称": "10 Anchor shoe 05",
+      "原对应件": "10 Anchor shoe 05",
+      "采用版本": "V27",
+      "用途分组": "03_树莓派支架",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/10_anchor_shoe_05.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/10_anchor_shoe_05.stl",
+      "SHA256": "b86fa43fe172b07edac41dbe1816229c1251049c872e6b9caf2d7acd767b9b54"
+    },
+    {
+      "零件名称": "36 Long carrier lock 05",
+      "原对应件": "11 Anchor key 05",
+      "采用版本": "V28",
+      "用途分组": "03_树莓派支架",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/36_long_lock_05_v28.stl",
+      "来源文件": "camera-project/E-结构/output/v28-pi-carrier-reinforcement-20261027/stl/36_long_lock_05_v28.stl",
+      "SHA256": "e1fb65f3ab44c2c3acf911b76257ffad110306c5fc82519c7389061c3ae63a1f"
+    },
+    {
+      "零件名称": "14 Pi clip 1",
+      "原对应件": "14 Pi clip 1",
+      "采用版本": "V27",
+      "用途分组": "03_树莓派支架",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/14_pi_clip_1.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/14_pi_clip_1.stl",
+      "SHA256": "e5ef38c36ba208fd1d809f5022e006c38edbc1aeed86f0061cbcaaf2c79082b6"
+    },
+    {
+      "零件名称": "14 Pi clip 2",
+      "原对应件": "14 Pi clip 2",
+      "采用版本": "V27",
+      "用途分组": "03_树莓派支架",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/14_pi_clip_2.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/14_pi_clip_2.stl",
+      "SHA256": "aa1dfaf847fe9b65095b4f00e116a41d5ab70a4c6071412b5a22fed3da3fccc9"
+    },
+    {
+      "零件名称": "14 Pi clip 3",
+      "原对应件": "14 Pi clip 3",
+      "采用版本": "V27",
+      "用途分组": "03_树莓派支架",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/14_pi_clip_3.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/14_pi_clip_3.stl",
+      "SHA256": "e3b63c7c6033383a5183417d8d1caa2b4e93a389a65dbdfff4c122d620fb1987"
+    },
+    {
+      "零件名称": "14 Pi clip 4",
+      "原对应件": "14 Pi clip 4",
+      "采用版本": "V27",
+      "用途分组": "03_树莓派支架",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/14_pi_clip_4.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/14_pi_clip_4.stl",
+      "SHA256": "b4abb8fe98fe38b55c45bb82381a2e8f0fe66b900d4deff7ed4cba037b54e5fe"
+    },
+    {
+      "零件名称": "03 Pi carrier 60deg braced",
+      "原对应件": "03 Pi carrier 60deg braced",
+      "采用版本": "V28",
+      "用途分组": "03_树莓派支架",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/03_pi_carrier_access_reinforced_v28.stl",
+      "来源文件": "camera-project/E-结构/output/v28-pi-carrier-reinforcement-20261027/stl/03_pi_carrier_access_reinforced_v28.stl",
+      "SHA256": "6dafef22df21a0be4a9287cf551086bd407e8c37d70379535f92ab91b4f28475"
+    },
+    {
+      "零件名称": "09 Independent battery cradle",
+      "原对应件": "09 Independent battery cradle",
+      "采用版本": "V28",
+      "用途分组": "04_电池固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/09_battery_cradle_open_end_v28.stl",
+      "来源文件": "camera-project/E-结构/output/v28-pi-carrier-reinforcement-20261027/stl/09_battery_cradle_open_end_v28.stl",
+      "SHA256": "37db6141d91ffddf6ca1de77bf1c051b2b01c347be0380cd7c1749f29e4332e0"
+    },
+    {
+      "零件名称": "10 Battery anchor shoe 6",
+      "原对应件": "10 Battery anchor shoe 6",
+      "采用版本": "V27",
+      "用途分组": "04_电池固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/10_battery_anchor_shoe_6.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/10_battery_anchor_shoe_6.stl",
+      "SHA256": "d71b4c23c7092e22fd67dbb349a98c2fc8b9f5303c804ebbe0b24343bf2182f5"
+    },
+    {
+      "零件名称": "11 Battery anchor key 6",
+      "原对应件": "11 Battery anchor key 6",
+      "采用版本": "V27",
+      "用途分组": "04_电池固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/11_battery_anchor_key_6.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/11_battery_anchor_key_6.stl",
+      "SHA256": "d222973909e7c3fa8dd16ffda81a0e15ca35b2dba64f3b4ec0c28b6c44825cda"
+    },
+    {
+      "零件名称": "10 Battery anchor shoe 7",
+      "原对应件": "10 Battery anchor shoe 7",
+      "采用版本": "V27",
+      "用途分组": "04_电池固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/10_battery_anchor_shoe_7.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/10_battery_anchor_shoe_7.stl",
+      "SHA256": "7600d297c0c4f442b29a5613b91688566556bac65c509fbe86d14e928f14b98b"
+    },
+    {
+      "零件名称": "11 Battery anchor key 7",
+      "原对应件": "11 Battery anchor key 7",
+      "采用版本": "V27",
+      "用途分组": "04_电池固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/11_battery_anchor_key_7.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/11_battery_anchor_key_7.stl",
+      "SHA256": "03acbe5daff896f97aee04fc609b0d342f13d5b06186f3393d1acdb0f44057b5"
+    },
+    {
+      "零件名称": "07 Battery top bridge",
+      "原对应件": "07 Battery top bridge",
+      "采用版本": "V28",
+      "用途分组": "04_电池固定",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/07_battery_bridge_side_entry_v28.stl",
+      "来源文件": "camera-project/E-结构/output/v28-pi-carrier-reinforcement-20261027/stl/07_battery_bridge_side_entry_v28.stl",
+      "SHA256": "0dd04cfaca9555c33ba74edb7f2bf5525ce8effe9e847a3f923f41133d7a4d77"
+    },
+    {
+      "零件名称": "04 Bottom lid recessed USB-C",
+      "原对应件": "04 Bottom lid recessed USB-C",
+      "采用版本": "V27",
+      "用途分组": "01_主壳屏幕与底盖",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/04_bottom_lid_recessed_usb-c.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/04_bottom_lid_recessed_usb-c.stl",
+      "SHA256": "479c514ab56c321bb796052687e8bcd986d60b289eb1036d0f8d50582fd97050"
+    },
+    {
+      "零件名称": "30 Sliding dust cover",
+      "原对应件": "30 Sliding dust cover",
+      "采用版本": "V27",
+      "用途分组": "06_充电口",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/30_sliding_dust_cover.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/30_sliding_dust_cover.stl",
+      "SHA256": "c9711a8304ae621a1550aa5cd9b52c2adaea357f1c44d767c88f67268409851e"
+    },
+    {
+      "零件名称": "31 USB-C carrier",
+      "原对应件": "31 USB-C carrier",
+      "采用版本": "V27",
+      "用途分组": "06_充电口",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/31_usb-c_carrier.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/31_usb-c_carrier.stl",
+      "SHA256": "f10354ed3449e49c58c4ee0fddf4b6e1fe311e14b1bdbdb1b32fe6e7205052b3"
+    },
+    {
+      "零件名称": "32 Rear connector stop",
+      "原对应件": "32 Rear connector stop",
+      "采用版本": "V27",
+      "用途分组": "06_充电口",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/32_rear_connector_stop.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/32_rear_connector_stop.stl",
+      "SHA256": "5616cf65005f59648842445429feb150cfd347264b01d12d5e1407e02df7958a"
+    },
+    {
+      "零件名称": "33 Carrier key left",
+      "原对应件": "33 Carrier key left",
+      "采用版本": "V27",
+      "用途分组": "06_充电口",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/33_carrier_key_left.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/33_carrier_key_left.stl",
+      "SHA256": "0f4f5f24dcd08c9d6616b9098a9dce1c2b898e8a3980e203cc33a1976b8176f7"
+    },
+    {
+      "零件名称": "33 Carrier key right",
+      "原对应件": "33 Carrier key right",
+      "采用版本": "V27",
+      "用途分组": "06_充电口",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/33_carrier_key_right.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/33_carrier_key_right.stl",
+      "SHA256": "230ec086518280c3fe6d56b76b30866bba7c378b6292d155f24a8f999e9b98db"
+    },
+    {
+      "零件名称": "34 Axial shim 0.68",
+      "原对应件": "34 Axial shim 0.68",
+      "采用版本": "V27",
+      "用途分组": "06_充电口",
+      "安装选择": "备选，按需选用",
+      "包内STL": "01_当前完整模型/STL/34_axial_shim_0p68.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/34_axial_shim_0p68.stl",
+      "SHA256": "3efb9d24cdf9b55fc8faccae4aba152c78fabc15fc81b693b702d6537ce2b712"
+    },
+    {
+      "零件名称": "35 Side shim 0.36",
+      "原对应件": "35 Side shim 0.36",
+      "采用版本": "V27",
+      "用途分组": "06_充电口",
+      "安装选择": "备选，按需选用",
+      "包内STL": "01_当前完整模型/STL/35_side_shim_0p36.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/35_side_shim_0p36.stl",
+      "SHA256": "7caa3ba5bc98e312676fe8867696a7ced5b77b48bf8f9ff3060ca59a0dc32bb4"
+    },
+    {
+      "零件名称": "16 Cover clip 1",
+      "原对应件": "16 Cover clip 1",
+      "采用版本": "V27",
+      "用途分组": "01_主壳屏幕与底盖",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/16_cover_clip_1.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/16_cover_clip_1.stl",
+      "SHA256": "59b3aedfcc0a5dc1a62e9708c8d68893c41e0e5cd50c33d7900a01bdc5b8efe8"
+    },
+    {
+      "零件名称": "16 Cover clip 2",
+      "原对应件": "16 Cover clip 2",
+      "采用版本": "V27",
+      "用途分组": "01_主壳屏幕与底盖",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/16_cover_clip_2.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/16_cover_clip_2.stl",
+      "SHA256": "59b3aedfcc0a5dc1a62e9708c8d68893c41e0e5cd50c33d7900a01bdc5b8efe8"
+    },
+    {
+      "零件名称": "16 Cover clip 3",
+      "原对应件": "16 Cover clip 3",
+      "采用版本": "V27",
+      "用途分组": "01_主壳屏幕与底盖",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/16_cover_clip_3.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/16_cover_clip_3.stl",
+      "SHA256": "5a40ec4083becca7032c9421ba8bb2aa9ca67ddc7de2edfd8daa702113c2d32f"
+    },
+    {
+      "零件名称": "16 Cover clip 4",
+      "原对应件": "16 Cover clip 4",
+      "采用版本": "V27",
+      "用途分组": "01_主壳屏幕与底盖",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/16_cover_clip_4.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/16_cover_clip_4.stl",
+      "SHA256": "5a40ec4083becca7032c9421ba8bb2aa9ca67ddc7de2edfd8daa702113c2d32f"
+    },
+    {
+      "零件名称": "17 Release pick",
+      "原对应件": "17 Release pick",
+      "采用版本": "V27",
+      "用途分组": "01_主壳屏幕与底盖",
+      "安装选择": "工具，不装入相机",
+      "包内STL": "01_当前完整模型/STL/17_release_pick.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/17_release_pick.stl",
+      "SHA256": "005d84bcb82602582d48b0afff5ff9073861fa8be6e60dd7dcb349939178a847"
+    },
+    {
+      "零件名称": "01 Main body 106mm",
+      "原对应件": "01 Main body 106mm",
+      "采用版本": "V27",
+      "用途分组": "01_主壳屏幕与底盖",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/01_main_body_106mm.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/01_main_body_106mm.stl",
+      "SHA256": "dd206f0dee57ecf12e807bfd8f06ca3b4926dcffe66f59e01535347269ecf73b"
+    },
+    {
+      "零件名称": "35 Independent button washer seat",
+      "原对应件": "35 Independent button washer seat",
+      "采用版本": "V27",
+      "用途分组": "05_拨杆与按钮",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/35_independent_button_washer_seat.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/35_independent_button_washer_seat.stl",
+      "SHA256": "2285e01011ac21f2b8db2384f6a56969a281454a5e050b922ab17c9c1e53eb88"
+    },
+    {
+      "零件名称": "25 Independent hidden cassette 02deg",
+      "原对应件": "25 Independent hidden cassette 02deg",
+      "采用版本": "A_down",
+      "用途分组": "05_拨杆与按钮",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/A_down_25_cassette.stl",
+      "来源文件": "camera-project/E-结构/reviews/20261027-parallel-lever-direction-trial-01/stl/A_down_25_cassette.stl",
+      "SHA256": "ab9a710843deb733e5eb6507af83cc7fbf725fda739055d71b5d884ac4ae085b"
+    },
+    {
+      "零件名称": "26 Internal rotor gap 7.4",
+      "原对应件": "26 Internal rotor gap 7.4",
+      "采用版本": "A_down",
+      "用途分组": "05_拨杆与按钮",
+      "安装选择": "默认安装；V30选档后可替换",
+      "包内STL": "01_当前完整模型/STL/A_down_26_rotor.stl",
+      "来源文件": "camera-project/E-结构/reviews/20261027-parallel-lever-direction-trial-01/stl/A_down_26_rotor.stl",
+      "SHA256": "4be30c5139b59e26a9d0f4a6b295903a6a49faeb5a9f69677b25320f6e2f73d4"
+    },
+    {
+      "零件名称": "27 Rearward handle B",
+      "原对应件": "27 Rearward handle B",
+      "采用版本": "V27",
+      "用途分组": "05_拨杆与按钮",
+      "安装选择": "B/C二选一，默认B",
+      "包内STL": "01_当前完整模型/STL/27_rearward_handle_b.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/27_rearward_handle_b.stl",
+      "SHA256": "ee944e0e3e3bb21d3cb63d7cbb831a40233f538a1629b6f702be1a0a1da492f2"
+    },
+    {
+      "零件名称": "27 Rearward handle C",
+      "原对应件": "27 Rearward handle C",
+      "采用版本": "V27",
+      "用途分组": "05_拨杆与按钮",
+      "安装选择": "B/C二选一，默认B",
+      "包内STL": "01_当前完整模型/STL/27_rearward_handle_c.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/27_rearward_handle_c.stl",
+      "SHA256": "6acc5a8b86eb2cd5a88d23af8111fec49f188c992f030e53fdc996de1949d749"
+    },
+    {
+      "零件名称": "28 Hidden pivot keeper",
+      "原对应件": "28 Hidden pivot keeper",
+      "采用版本": "V27",
+      "用途分组": "05_拨杆与按钮",
+      "安装选择": "默认安装；V30选档后可替换",
+      "包内STL": "01_当前完整模型/STL/28_hidden_pivot_keeper.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/28_hidden_pivot_keeper.stl",
+      "SHA256": "84aaa6affae607134a9cf9b00381ba4ad62bce2d76a5045559a116c288eda12d"
+    },
+    {
+      "零件名称": "29 Concealed bearing liner",
+      "原对应件": "29 Concealed bearing liner",
+      "采用版本": "V27",
+      "用途分组": "05_拨杆与按钮",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/29_concealed_bearing_liner.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/29_concealed_bearing_liner.stl",
+      "SHA256": "f0a8813e9b8b8fed9239d28283522558c39275bebc2006d40422af36283fec94"
+    },
+    {
+      "零件名称": "34 Rigid cassette withdrawal key",
+      "原对应件": "34 Rigid cassette withdrawal key",
+      "采用版本": "V27",
+      "用途分组": "05_拨杆与按钮",
+      "安装选择": "默认安装",
+      "包内STL": "01_当前完整模型/STL/34_rigid_cassette_withdrawal_key.stl",
+      "来源文件": "camera-project/E-结构/output/v27-tilted-pi-wedge-battery-complete-20261027/stl/34_rigid_cassette_withdrawal_key.stl",
+      "SHA256": "c8659345862e1fa57ad7b316b7cc60c494bd51964d4f14256c5cc4831d22d9ba"
+    }
+  ],
+  "physical_status": "A motion direction user-confirmed; V28/V29/V30 fit, return and durability still need physical validation"
+}

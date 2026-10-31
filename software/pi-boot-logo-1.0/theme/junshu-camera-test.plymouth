@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Junshu Camera Boot Test
+Description=Two static test screens; camera autostart is unchanged
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/junshu-camera-test
+ScriptFile=/usr/share/plymouth/themes/junshu-camera-test/junshu-camera-test.script

@@ -1,0 +1,60 @@
+{
+  "version": "G2",
+  "reason": "Correct mirrored relationship of G1 kit to the existing actual 04 lid",
+  "parts": [
+    {
+      "file": "30_G2_matched_sliding_cover.stl",
+      "source": "30_G1_matched_sliding_cover.stl",
+      "sha256": "5e53c3865e371abbfde3966c5053e3e2afcff7d6ade31c804c55b0aff832cc80",
+      "correction": "Reflect print Y and reverse triangle winding",
+      "assembly_location_mm": [
+        -10.75,
+        6.199999809265137,
+        2.799999952316284
+      ],
+      "assembly_rotation_rad": [
+        3.1415927410125732,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "file": "31_G2_glue_carrier.stl",
+      "source": "31_G1_glue_carrier.stl",
+      "sha256": "c325061d3f3cf8a43728f8e1e737717d1efd01b1713a5796910ecf544302aca0",
+      "correction": "Reflect print Y and reverse triangle winding",
+      "assembly_location_mm": [
+        -18.0,
+        -17.299999237060547,
+        2.700000047683716
+      ],
+      "assembly_rotation_rad": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "file": "32_G2_wide_U_rear_stop.stl",
+      "source": "32_G1_wide_U_rear_stop.stl",
+      "sha256": "cbd6cde21f68b09252b26413e3b30b59b2ec425d2ddb6d3b5bc42bbcc164bf46",
+      "correction": "Reflect print Y and reverse triangle winding",
+      "assembly_location_mm": [
+        -10.100000381469727,
+        -7.199999809265137,
+        16.200000762939453
+      ],
+      "assembly_rotation_rad": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "lid_unchanged": true,
+  "lid_sha256": "479c514ab56c321bb796052687e8bcd986d60b289eb1036d0f8d50582fd97050",
+  "printer": "Bambu X2D",
+  "material": "PETG Matte",
+  "u_slot_width_mm": 7.0,
+  "physical_fit_tested": false
+}

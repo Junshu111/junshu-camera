@@ -1,0 +1,103 @@
+# New Cam 1.0: a single static approved image, without delaying boot.
+# Use dimensions AND origin from the same output. Global width and global
+# offset are unrelated maxima in Plymouth's multi-output canvas.
+Window.SetBackgroundTopColor(0, 0, 0);
+Window.SetBackgroundBottomColor(0, 0, 0);
+Plymouth.SetRefreshRate(10);
+global.image = Image("logo.png");
+global.picture = Sprite(global.image);
+global.text = Sprite();
+global.text.SetOpacity(0);
+global.width = 0;
+global.height = 0;
+global.x = 0;
+global.y = 0;
+global.prompt = 0;
+global.boot = Plymouth.GetMode() == "boot";
+if (!global.boot) global.picture.SetOpacity(0);
+
+fun refresh()
+{
+    # Prefer this camera's native DSI, even if a boot framebuffer/HDMI comes
+    # first. Fall back to the first output and fit without stretching.
+    width = 0;
+    height = 0;
+    for (i = 0; i < 32; i++)
+    {
+        w = Window.GetWidth(i);
+        h = Window.GetHeight(i);
+        if (!w || !h) break;
+        if (i == 0 || (w == 480 && h == 800))
+        {
+            width = w;
+            height = h;
+            x = Window.GetX(i);
+            y = Window.GetY(i);
+        }
+        if (w == 480 && h == 800) break;
+    }
+    if (width <= 0 || height <= 0) return;
+    if (width == global.width && height == global.height &&
+        x == global.x && y == global.y) return;
+    global.width = width;
+    global.height = height;
+    global.x = x;
+    global.y = y;
+    scale = width / 480;
+    if (height / 800 < scale) scale = height / 800;
+    global.picture.SetImage(global.image.Scale(480 * scale, 800 * scale));
+    global.picture.SetPosition(x + (width - 480 * scale) / 2,
+                               y + (height - 800 * scale) / 2, 0);
+}
+Plymouth.SetRefreshFunction(refresh);
+
+fun show_text(text)
+{
+    refresh();
+    rendered = Image.Text(text, 1, 1, 1);
+    available = global.width - 32;
+    if (available > 0 && rendered.GetWidth() > available)
+        rendered = rendered.Scale(available, rendered.GetHeight() * available / rendered.GetWidth());
+    global.text.SetImage(rendered);
+    global.text.SetPosition(global.x + (global.width - rendered.GetWidth()) / 2,
+                            global.y + global.height * 0.65, 100);
+    global.text.SetOpacity(1);
+}
+
+fun normal()
+{
+    global.prompt = 0;
+    global.text.SetOpacity(0);
+    if (global.boot) global.picture.SetOpacity(1);
+}
+Plymouth.SetDisplayNormalFunction(normal);
+
+fun password(prompt, bullets)
+{
+    global.prompt = 1;
+    global.picture.SetOpacity(0);
+    stars = "";
+    for (i = 0; i < bullets; i++) stars += "*";
+    show_text(prompt + "  " + stars);
+}
+Plymouth.SetDisplayPasswordFunction(password);
+
+fun question(prompt, entry)
+{
+    global.prompt = 1;
+    global.picture.SetOpacity(0);
+    show_text(prompt + "  " + entry);
+}
+Plymouth.SetDisplayQuestionFunction(question);
+
+fun message(text)
+{
+    if (!global.prompt) show_text(text);
+}
+fun hide_message(text)
+{
+    if (!global.prompt) global.text.SetOpacity(0);
+}
+Plymouth.SetDisplayMessageFunction(message);
+Plymouth.SetHideMessageFunction(hide_message);
+refresh();

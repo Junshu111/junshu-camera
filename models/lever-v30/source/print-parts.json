@@ -1,0 +1,77 @@
+[
+  {
+    "name": "T1 Keeper 1.40mm",
+    "file": "T1_28_keeper_1.40mm.stl",
+    "rotation": [
+      90,
+      0,
+      0
+    ],
+    "kind": "T",
+    "mark": 1,
+    "thickness_mm": 1.4
+  },
+  {
+    "name": "T2 Keeper 1.52mm",
+    "file": "T2_28_keeper_1.52mm.stl",
+    "rotation": [
+      90,
+      0,
+      0
+    ],
+    "kind": "T",
+    "mark": 2,
+    "thickness_mm": 1.52
+  },
+  {
+    "name": "T3 Keeper 1.64mm",
+    "file": "T3_28_keeper_1.64mm.stl",
+    "rotation": [
+      90,
+      0,
+      0
+    ],
+    "kind": "T",
+    "mark": 3,
+    "thickness_mm": 1.64
+  },
+  {
+    "name": "F1 Rotor pickup +0.10mm",
+    "file": "F1_26_rotor_pickup_0.10mm.stl",
+    "rotation": [
+      90,
+      0,
+      0
+    ],
+    "kind": "F",
+    "mark": 1,
+    "pickup_advance_mm": 0.1,
+    "gap_mm": 7.300000000000001
+  },
+  {
+    "name": "F2 Rotor pickup +0.15mm",
+    "file": "F2_26_rotor_pickup_0.15mm.stl",
+    "rotation": [
+      90,
+      0,
+      0
+    ],
+    "kind": "F",
+    "mark": 2,
+    "pickup_advance_mm": 0.15,
+    "gap_mm": 7.25
+  },
+  {
+    "name": "F3 Rotor pickup +0.20mm",
+    "file": "F3_26_rotor_pickup_0.20mm.stl",
+    "rotation": [
+      90,
+      0,
+      0
+    ],
+    "kind": "F",
+    "mark": 3,
+    "pickup_advance_mm": 0.2,
+    "gap_mm": 7.2
+  }
+]
